@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/1366249088.svg)](https://doi.org/10.5281/zenodo.22722276)
 
-Code and reference results for the study “Benchmarking Quantum Neural Networks for Wind Power Forecasting: Generalization Stability and Noise Robustness Under Data-Scarce Conditions,” by Batuhan Hangun, Oguz Altun, Onder Eyecioglu, and Tahir Cetin Akinci. It includes the data splits, classical and quantum model experiments, statistical tests, and scripts for all five figures. The experiments run locally on a CPU; no quantum hardware is required.
+Code and reference results for the study “Benchmarking Quantum Neural Networks for Wind Power Prediction: Generalization Stability and Noise Robustness Under Data-Scarce Conditionss,” by Batuhan Hangun, Oguz Altun, Onder Eyecioglu, and Tahir Cetin Akinci. It includes the data splits, classical and quantum model experiments, statistical tests, and scripts for all five figures. The experiments run locally on a CPU; no quantum hardware is required.
 
 ## Download and install
 
