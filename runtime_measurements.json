@@ -1,0 +1,180 @@
+{
+  "qnn_final_training_gate": {
+    "experiment": "qnn_final_training_gate",
+    "seeds": [
+      42
+    ],
+    "sizes": [
+      800
+    ],
+    "python": "3.12.10",
+    "processor": "AMD Ryzen 7 5800X3D 8-Core Processor",
+    "status": "passed",
+    "elapsed_seconds": 350.84,
+    "measurement_date": "2026-09-11",
+    "note": "pytest duration for fresh final training and held-out evaluation only. Excludes five-fold CV and the other three sizes. Not a complete QNN seed runtime."
+  },
+  "ann_reg": {
+    "experiment": "ann_reg",
+    "seeds": [
+      42
+    ],
+    "sizes": [
+      800,
+      1600,
+      2400,
+      3200
+    ],
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD Ryzen 7 5800X3D 8-Core Processor",
+    "memory_bytes": 34269794304,
+    "status": "passed",
+    "elapsed_seconds": 731.0463779000565,
+    "measurement_date": "2026-09-11",
+    "note": "One seed, all four sizes, measured through the fresh pytest subprocess. Background validation was active during part of the measurement. Ten-seed extrapolation is not a full-run measurement."
+  },
+  "classical": {
+    "experiment": "classical",
+    "seeds": [
+      42
+    ],
+    "sizes": [
+      800,
+      1600,
+      2400,
+      3200
+    ],
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD Ryzen 7 5800X3D 8-Core Processor",
+    "status": "passed",
+    "elapsed_seconds": 70.60370209999382,
+    "measurement_date": "2026-09-11",
+    "memory_bytes": 34269794304,
+    "note": "One seed with the full experiment settings. Independent validation studies overlapped for quantum experiments. Ten-seed extrapolations are not measured full-run durations.",
+    "completed_at": "2026-09-11T18:29:46.861786+03:00"
+  },
+  "stats": {
+    "experiment": "stats",
+    "python": "3.12.10",
+    "elapsed_seconds": 1.4153541000559926,
+    "status": "passed",
+    "seeds": [
+      42
+    ],
+    "note": "Measured while independent single-seed training studies were running."
+  },
+  "figures": {
+    "experiment": "figures",
+    "python": "3.12.10",
+    "elapsed_seconds": 6.659894699929282,
+    "status": "passed",
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ],
+    "note": "Measured while independent single-seed training studies were running."
+  },
+  "capacity": {
+    "experiment": "capacity",
+    "seeds": [
+      42
+    ],
+    "sizes": [
+      800
+    ],
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD Ryzen 7 5800X3D 8-Core Processor",
+    "status": "passed",
+    "elapsed_seconds": 1842.481883600005,
+    "measurement_date": "2026-09-11",
+    "memory_bytes": 34269794304,
+    "note": "One seed with the full experiment settings. Independent validation studies overlapped for quantum experiments. Ten-seed extrapolations are not measured full-run durations.",
+    "completed_at": "2026-09-11T19:06:04.133543+03:00"
+  },
+  "selection": {
+    "experiment": "selection",
+    "seeds": [
+      42
+    ],
+    "sizes": [
+      800
+    ],
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD Ryzen 7 5800X3D 8-Core Processor",
+    "status": "passed",
+    "elapsed_seconds": 5934.009423800046,
+    "measurement_date": "2026-09-11",
+    "memory_bytes": 34269794304,
+    "note": "One seed with the full experiment settings. Independent validation studies overlapped for quantum experiments. Ten-seed extrapolations are not measured full-run durations.",
+    "completed_at": "2026-09-11T20:13:59.562872+03:00"
+  },
+  "noise_aware": {
+    "experiment": "noise_aware",
+    "seeds": [
+      42
+    ],
+    "sizes": [
+      800
+    ],
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD Ryzen 7 5800X3D 8-Core Processor",
+    "status": "passed",
+    "elapsed_seconds": 17210.50961279997,
+    "measurement_date": "2026-09-11",
+    "memory_bytes": 34269794304,
+    "note": "One seed with the full experiment settings. Independent validation studies overlapped for quantum experiments. Ten-seed extrapolations are not measured full-run durations.",
+    "completed_at": "2026-09-11T23:22:25.399179+03:00"
+  },
+  "qnn": {
+    "experiment": "qnn",
+    "seeds": [
+      42
+    ],
+    "sizes": [
+      800,
+      1600,
+      2400,
+      3200
+    ],
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD Ryzen 7 5800X3D 8-Core Processor",
+    "status": "passed",
+    "elapsed_seconds": 18874.20828199992,
+    "measurement_date": "2026-09-11",
+    "memory_bytes": 34269794304,
+    "note": "One seed with the full experiment settings. Independent validation studies overlapped for quantum experiments. Ten-seed extrapolations are not measured full-run durations.",
+    "completed_at": "2026-09-11T23:45:39.375710+03:00"
+  },
+  "noise": {
+    "experiment": "noise",
+    "seeds": [
+      42
+    ],
+    "sizes": [
+      800,
+      1600,
+      2400,
+      3200
+    ],
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD",
+    "status": "passed",
+    "elapsed_seconds": 3061.3446150999516,
+    "note": "Seed 42, all four sizes and six noise levels, including the deterministic retraining check. Completed on 2026-09-12. Ten-seed durations are extrapolated."
+  }
+}

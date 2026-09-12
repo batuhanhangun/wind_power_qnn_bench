@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite this repository when using the code."
+type: software
+title: "Reproduction code for Benchmarking Quantum Neural Networks for Wind Power Forecasting: Generalization Stability and Noise Robustness Under Data-Scarce Conditions"
+authors:
+  - family-names: Hangun
+    given-names: Batuhan
+  - family-names: Altun
+    given-names: Oguz
+  - family-names: Eyecioglu
+    given-names: Onder
+  - family-names: Akinci
+    given-names: Tahir Cetin
+repository-code: "https://github.com/batuhanhangun/wind_power_qnn_bench"
+license: MIT
