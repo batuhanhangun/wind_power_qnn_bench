@@ -41,7 +41,7 @@ Run all commands below from the repository root with this environment active. Th
 Check the supplied reference results without retraining:
 
 ```text
-python -m scripts.verify_manuscript
+python -m scripts.verify_results
 python -m pytest -m "not slow" --tb=short
 ```
 
@@ -173,7 +173,7 @@ Reference paths are relative to `results/reference/` unless noted.
 | Table II: QNN architecture-selection results at N=800 (`tab:arch_selection`) | `scripts/run_selection.py` | `selection/selection_per_seed.csv` |
 | Table III: Hyperparameter search spaces (`tab:hyperparams`) | Classical, ANN-Reg and QNN scripts; grids in `qnnbench/config.py` | Configuration, not an aggregate result |
 | Table IV: Comparative performance at N=3200 (`tab:performance_comparison`) | `scripts/run_classical.py`, `run_qnn.py`, `run_ann_reg.py` | `classical/metrics/`, `qnn/qnn_per_seed.csv`, `ann_reg/ann_reg_per_seed.csv` |
-| Table V: Generalization gap per model (`tab:gen_gap`) | `scripts/run_stats.py`, `verify_manuscript.py` | Classical, QNN and ANN-Reg per-seed CSVs |
+| Table V: Generalization gap per model (`tab:gen_gap`) | `scripts/run_stats.py`, `verify_results.py` | Classical, QNN and ANN-Reg per-seed CSVs |
 | Table VI: QNN capacity ablation at N=800 (`tab:capacity`) | `scripts/run_capacity.py` | `capacity/capacity_per_seed.csv` |
 | Table VII: Wilcoxon signed-rank test results (`tab:wilcoxon`) | `scripts/run_stats.py` | Classical, QNN and ANN-Reg per-seed CSVs |
 | Table VIII: QNN performance under depolarizing noise (`tab:noise`) | `scripts/run_noise.py` | `noise/noise_per_run.csv`, `noise/noise_summary.csv` |

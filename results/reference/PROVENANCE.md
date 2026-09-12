@@ -18,7 +18,7 @@ checks every digest, so an accidental change to a reference value fails the test
 Run identifiers encode the run date; the timezone is not recorded. Dates marked "unknown"
 come from copies whose original run directory was not retained.
 
-`published_tables.json` holds the published table cells that `scripts/verify_manuscript.py`
+`published_tables.json` holds the published table cells that `scripts/verify_results.py`
 compares against these results. It contains printed numbers only, no derivation.
 
 The classical aggregate directory retains historical rows from an earlier circular-QNN

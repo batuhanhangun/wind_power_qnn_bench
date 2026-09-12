@@ -1,7 +1,7 @@
 import numpy as np
 import pytest
 from qnnbench.stats import benchmark_tests, resolution_floor, paired_test, load_benchmark, derived_statistics
-from scripts.verify_manuscript import verify, check_cell
+from scripts.verify_results import verify, check_cell
 
 def test_table_iv_pvalues():
     expected={'ANN':[1.52e-3,8.92e-2],'ANN-Reg':[2.07e-8,3.54e-1],
@@ -88,7 +88,7 @@ def test_ten_seed_noise_aware_pairing(monkeypatch):
     monkeypatch.setattr(stats.pd,'read_csv',lambda path:data.iloc[:-1])
     with pytest.raises(ValueError): stats.noise_aware_tests()
 
-def test_manuscript_numeric_cells():
+def test_published_numeric_cells():
     checks=verify()
     failed=[f'{c.table}/{c.row}/{c.column}: {c.printed} vs {c.actual}; {c.reason}'
             for c in checks if not c.passed]

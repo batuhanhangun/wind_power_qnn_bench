@@ -11,7 +11,7 @@ mean reproduces the N=800 reverse_linear reference values within FIDELITY_TOL
     0.010 -> 0.659
     0.020 -> 0.299
 
-(NOT the pooled manuscript table 0.892/0.809/0.649/0.277, which averages four
+(NOT the pooled published table 0.892/0.809/0.649/0.277, which averages four
 training sizes and is the wrong reference for an N=800-only measurement.)
 
 This is cheap relative to the noise-aware sweep (no density-matrix TRAINING —

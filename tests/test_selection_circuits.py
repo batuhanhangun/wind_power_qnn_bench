@@ -3,7 +3,7 @@
 Asserts that the parameterized circuit with ``entanglement="circular"`` returns an
 expectation value identical, within 1e-10, to the reference circuit in
 ``src/run_qnn.py`` for the same weights and input vector. This guarantees the
-candidate machinery reproduces the manuscript incumbent (QNN-3) gate-for-gate.
+candidate machinery reproduces the original incumbent (QNN-3) gate-for-gate.
 
 Run standalone BEFORE submitting the array job:
 

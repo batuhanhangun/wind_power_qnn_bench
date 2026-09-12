@@ -1,4 +1,4 @@
-"""Generate all five manuscript figures."""
+"""Generate all five published figures."""
 from figures import fig1_circuit
 from figures import fig2_saturation
 from figures import fig3_gap

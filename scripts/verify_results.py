@@ -1,7 +1,7 @@
 """Compare every published result-table cell with the shipped original records.
 
 The published cells are stored in `results/reference/published_tables.json`, so the
-verifier needs no manuscript source. A LaTeX file may still be passed explicitly.
+verifier needs no LaTeX source. One may still be passed explicitly.
 """
 import argparse
 from dataclasses import dataclass
@@ -97,7 +97,7 @@ def mean_std(series):
     return [float(series.mean()),float(series.std(ddof=1))]
 
 def table_values(label,root):
-    """Recompute from per-run data; no printed manuscript number enters this function."""
+    """Recompute from per-run data; no published number enters this function."""
     if label in ['tab:performance_comparison','tab:gen_gap','tab:wilcoxon']:
         df=load_benchmark(root)
         for _,g in df.groupby('model'):

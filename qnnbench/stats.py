@@ -1,4 +1,4 @@
-"""Paired manuscript tests; no experiment training is implemented here."""
+"""Paired statistical tests; no experiment training is implemented here."""
 from pathlib import Path
 import numpy as np
 import pandas as pd
