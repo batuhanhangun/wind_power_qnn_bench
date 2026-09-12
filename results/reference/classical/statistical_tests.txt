@@ -1,0 +1,223 @@
+Wilcoxon Signed-Rank Tests (Two-sided)
+============================================================
+
+NOTE: With n=10 paired samples, the minimum achievable
+two-sided Wilcoxon p-value is 0.0020. Significance
+at alpha=0.05 requires n >= 6 seeds.
+
+============================================================
+Train size = 800 samples
+============================================================
+
+QNN vs ANN
+----------------------------------------
+  Number of paired samples: 10
+  QNN mean R²: 0.8978
+  Other mean R²: 0.5729
+  Test statistic: 0.0000
+  P-value: 0.001953
+  Significant at alpha=0.05: True
+  Significant at alpha=0.01: True
+
+QNN vs RF
+----------------------------------------
+  Number of paired samples: 10
+  QNN mean R²: 0.8978
+  Other mean R²: 0.9450
+  Test statistic: 0.0000
+  P-value: 0.001953
+  Significant at alpha=0.05: True
+  Significant at alpha=0.01: True
+
+QNN vs XGBOOST
+----------------------------------------
+  Number of paired samples: 10
+  QNN mean R²: 0.8978
+  Other mean R²: 0.9434
+  Test statistic: 0.0000
+  P-value: 0.001953
+  Significant at alpha=0.05: True
+  Significant at alpha=0.01: True
+
+QNN vs SVR
+----------------------------------------
+  Number of paired samples: 10
+  QNN mean R²: 0.8978
+  Other mean R²: 0.9451
+  Test statistic: 0.0000
+  P-value: 0.001953
+  Significant at alpha=0.05: True
+  Significant at alpha=0.01: True
+
+QNN vs DTR
+----------------------------------------
+  Number of paired samples: 10
+  QNN mean R²: 0.8978
+  Other mean R²: 0.9373
+  Test statistic: 0.0000
+  P-value: 0.001953
+  Significant at alpha=0.05: True
+  Significant at alpha=0.01: True
+
+============================================================
+Train size = 1600 samples
+============================================================
+
+QNN vs ANN
+----------------------------------------
+  Number of paired samples: 10
+  QNN mean R²: 0.8992
+  Other mean R²: 0.6799
+  Test statistic: 24.0000
+  P-value: 0.769531
+  Significant at alpha=0.05: False
+  Significant at alpha=0.01: False
+
+QNN vs RF
+----------------------------------------
+  Number of paired samples: 10
+  QNN mean R²: 0.8992
+  Other mean R²: 0.9455
+  Test statistic: 0.0000
+  P-value: 0.001953
+  Significant at alpha=0.05: True
+  Significant at alpha=0.01: True
+
+QNN vs XGBOOST
+----------------------------------------
+  Number of paired samples: 10
+  QNN mean R²: 0.8992
+  Other mean R²: 0.9461
+  Test statistic: 0.0000
+  P-value: 0.001953
+  Significant at alpha=0.05: True
+  Significant at alpha=0.01: True
+
+QNN vs SVR
+----------------------------------------
+  Number of paired samples: 10
+  QNN mean R²: 0.8992
+  Other mean R²: 0.9470
+  Test statistic: 0.0000
+  P-value: 0.001953
+  Significant at alpha=0.05: True
+  Significant at alpha=0.01: True
+
+QNN vs DTR
+----------------------------------------
+  Number of paired samples: 10
+  QNN mean R²: 0.8992
+  Other mean R²: 0.9410
+  Test statistic: 0.0000
+  P-value: 0.001953
+  Significant at alpha=0.05: True
+  Significant at alpha=0.01: True
+
+============================================================
+Train size = 2400 samples
+============================================================
+
+QNN vs ANN
+----------------------------------------
+  Number of paired samples: 10
+  QNN mean R²: 0.8982
+  Other mean R²: 0.7234
+  Test statistic: 22.0000
+  P-value: 0.625000
+  Significant at alpha=0.05: False
+  Significant at alpha=0.01: False
+
+QNN vs RF
+----------------------------------------
+  Number of paired samples: 10
+  QNN mean R²: 0.8982
+  Other mean R²: 0.9473
+  Test statistic: 0.0000
+  P-value: 0.001953
+  Significant at alpha=0.05: True
+  Significant at alpha=0.01: True
+
+QNN vs XGBOOST
+----------------------------------------
+  Number of paired samples: 10
+  QNN mean R²: 0.8982
+  Other mean R²: 0.9484
+  Test statistic: 0.0000
+  P-value: 0.001953
+  Significant at alpha=0.05: True
+  Significant at alpha=0.01: True
+
+QNN vs SVR
+----------------------------------------
+  Number of paired samples: 10
+  QNN mean R²: 0.8982
+  Other mean R²: 0.9472
+  Test statistic: 0.0000
+  P-value: 0.001953
+  Significant at alpha=0.05: True
+  Significant at alpha=0.01: True
+
+QNN vs DTR
+----------------------------------------
+  Number of paired samples: 10
+  QNN mean R²: 0.8982
+  Other mean R²: 0.9450
+  Test statistic: 0.0000
+  P-value: 0.001953
+  Significant at alpha=0.05: True
+  Significant at alpha=0.01: True
+
+============================================================
+Train size = 3200 samples
+============================================================
+
+QNN vs ANN
+----------------------------------------
+  Number of paired samples: 10
+  QNN mean R²: 0.8970
+  Other mean R²: 0.7696
+  Test statistic: 20.0000
+  P-value: 0.492188
+  Significant at alpha=0.05: False
+  Significant at alpha=0.01: False
+
+QNN vs RF
+----------------------------------------
+  Number of paired samples: 10
+  QNN mean R²: 0.8970
+  Other mean R²: 0.9491
+  Test statistic: 0.0000
+  P-value: 0.001953
+  Significant at alpha=0.05: True
+  Significant at alpha=0.01: True
+
+QNN vs XGBOOST
+----------------------------------------
+  Number of paired samples: 10
+  QNN mean R²: 0.8970
+  Other mean R²: 0.9493
+  Test statistic: 0.0000
+  P-value: 0.001953
+  Significant at alpha=0.05: True
+  Significant at alpha=0.01: True
+
+QNN vs SVR
+----------------------------------------
+  Number of paired samples: 10
+  QNN mean R²: 0.8970
+  Other mean R²: 0.9475
+  Test statistic: 0.0000
+  P-value: 0.001953
+  Significant at alpha=0.05: True
+  Significant at alpha=0.01: True
+
+QNN vs DTR
+----------------------------------------
+  Number of paired samples: 10
+  QNN mean R²: 0.8970
+  Other mean R²: 0.9465
+  Test statistic: 0.0000
+  P-value: 0.001953
+  Significant at alpha=0.05: True
+  Significant at alpha=0.01: True
+

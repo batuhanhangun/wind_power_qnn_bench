@@ -1,0 +1,2287 @@
+[
+  {
+    "source": "qnn_noise_aware_training/src/circuit.py",
+    "destination": "qnnbench/circuits.py",
+    "sha256": "e97df1951b8a66e3919ad0bf2bdb0ae3724e55537e4a65b1b6ee02bb52813d2c",
+    "adaptations": "Imports, paths, entry points and obsolete deployment prose only"
+  },
+  {
+    "source": "qnn_capacity_ablation/src/circuit.py",
+    "destination": "qnnbench/_capacity_circuit.py",
+    "sha256": "9545d11e7099df59ab3b50b8e19068bbed3c573858472c84403805a6c22e2dad",
+    "adaptations": "Imports, paths, entry points and obsolete deployment prose only"
+  },
+  {
+    "source": "qnn_structure_selection/src/circuit.py",
+    "destination": "qnnbench/_selection_circuit.py",
+    "sha256": "117e8db299b9c7793169542bd447b3c8521ae152dbe2c886afe66a1f6a8410fb",
+    "adaptations": "Imports, paths, entry points and obsolete deployment prose only"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/src/run_classical.py",
+    "destination": "qnnbench/classical.py",
+    "sha256": "a3443d98d23fc645d7e29d10964ba335e0da35a8463ab97d98f65c0b1ac77174",
+    "adaptations": "Imports, paths, entry points and obsolete deployment prose only"
+  },
+  {
+    "source": "qnn_reverse_linear_rerun/src/run_main.py",
+    "destination": "qnnbench/qnn.py",
+    "sha256": "4d9b2069fb55ed6cc41077dbc21e2f6448eb00662a2bcee38f2ab2e80743b608",
+    "adaptations": "Imports, paths, entry points and obsolete deployment prose only"
+  },
+  {
+    "source": "qnn_capacity_ablation/src/run_capacity.py",
+    "destination": "qnnbench/capacity.py",
+    "sha256": "7da2342c4c738ebcba0c9cc70b49b57382bd1236067f89a12c59deb009836e92",
+    "adaptations": "Imports, paths, entry points and obsolete deployment prose only"
+  },
+  {
+    "source": "qnn_structure_selection/src/run_selection.py",
+    "destination": "qnnbench/selection.py",
+    "sha256": "33f04ac9d819687ae4aae3e17ccf420d00b0bf7ad3cc335562ecc2a3cffa2d63",
+    "adaptations": "Imports, paths, entry points and obsolete deployment prose only"
+  },
+  {
+    "source": "qnn_noise_aware_training/src/run_noise_aware.py",
+    "destination": "qnnbench/noise_aware.py",
+    "sha256": "1636fd4b6f3c922529ad741154b19a2c468c5511a2c7b695e232608e64ff2737",
+    "adaptations": "Imports, paths, entry points and obsolete deployment prose only"
+  },
+  {
+    "source": "ann_regularized_baseline/src/run_ann_reg.py",
+    "destination": "qnnbench/ann_reg.py",
+    "sha256": "9f0ae5a9ade1ced9ea1a27bb97bd57f4a16c2be95fe2534bb71e318d81c76b3c",
+    "adaptations": "Imports, paths, entry points and obsolete deployment prose only"
+  },
+  {
+    "source": "qnn_reverse_linear_rerun/src/run_noise.py",
+    "destination": "qnnbench/noise.py",
+    "sha256": "49d1c852a0911e3cadb512b8eb265e1aa914bf6b5b31e8c218d886237c7f2fba",
+    "adaptations": "Imports, paths, entry points and obsolete deployment prose only"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/src/utils.py",
+    "destination": "qnnbench/_io.py",
+    "sha256": "7e4a0e6d6a268cf7911c2bd5f5d22521e0b8f7a15727c855a5b2d0256e0faaba",
+    "adaptations": "Imports, paths, entry points and obsolete deployment prose only"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/src/generate_splits.py",
+    "destination": "data/make_splits.py",
+    "sha256": "6f71b89fe9a6536123355be3a966441a8c3956d54ff1e13df0b88364233a0512",
+    "adaptations": "Imports, paths, entry points and obsolete deployment prose only"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/src/aggregate_results.py",
+    "destination": "qnnbench/_aggregation/classical.py",
+    "sha256": "565780d5e6e7fe91f0901babe86e382e256df6fa509301d963aa53d0570667d8",
+    "adaptations": "Imports, paths, entry points and obsolete deployment prose only"
+  },
+  {
+    "source": "qnn_reverse_linear_rerun/src/aggregate_rerun.py",
+    "destination": "qnnbench/_aggregation/qnn.py",
+    "sha256": "5e148ae56b7f6fd2de746b21a41dcdcfbe9711fcbdd9cc7693e56734780a4aa4",
+    "adaptations": "Imports, paths, entry points and obsolete deployment prose only"
+  },
+  {
+    "source": "qnn_capacity_ablation/src/aggregate_capacity.py",
+    "destination": "qnnbench/_aggregation/capacity.py",
+    "sha256": "2233e84276ecc80f1209e8e942aa57a90d13d762cc4d1a07b9e6f91401db3d91",
+    "adaptations": "Imports, paths, entry points and obsolete deployment prose only"
+  },
+  {
+    "source": "qnn_structure_selection/src/aggregate_selection.py",
+    "destination": "qnnbench/_aggregation/selection.py",
+    "sha256": "73c3e9119ecb1e53b0e5bcfb9e46ff79bdd01f776e8f8e12227ef9740be0b973",
+    "adaptations": "Imports, paths, entry points and obsolete deployment prose only"
+  },
+  {
+    "source": "qnn_noise_aware_training/src/aggregate_noise_aware.py",
+    "destination": "qnnbench/_aggregation/noise_aware.py",
+    "sha256": "399060bb67b8427e5a51c81453463187e3cfcf4f927159a58df1c6ba565f159f",
+    "adaptations": "Imports, paths, entry points and obsolete deployment prose only"
+  },
+  {
+    "source": "ann_regularized_baseline/src/aggregate_ann_reg.py",
+    "destination": "qnnbench/_aggregation/ann_reg.py",
+    "sha256": "6895da1bd763c4b7aa1edfc3d0c53e15d4d278a72e4178644f2a90292d8be6f4",
+    "adaptations": "Imports, paths, entry points and obsolete deployment prose only"
+  },
+  {
+    "source": "qnn_noise_aware_training/src/diagnose_noise.py",
+    "destination": "qnnbench/diagnose_noise.py",
+    "sha256": "3f9e658e79019fca3baa19aeee342f3cf123e43e91b0a14710e2b8b44ad9bfff",
+    "adaptations": "Imports, paths, entry points and obsolete deployment prose only"
+  },
+  {
+    "source": "qnn_noise_aware_training/src/verify_fidelity.py",
+    "destination": "qnnbench/verify_fidelity.py",
+    "sha256": "92c3e18f21aefac2a6ed85d6c0335e4e2d7682a192719821c4964381eba6615c",
+    "adaptations": "Imports, paths, entry points and obsolete deployment prose only"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_42/test_set.csv",
+    "destination": "data/seed_42/test_set.csv",
+    "sha256": "762c60da063f4ebc639a8122d78042456e8a6278bd6a9778ead0f78b4aba3036"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_42/train_800.csv",
+    "destination": "data/seed_42/train_800.csv",
+    "sha256": "695266470dfcb3b47135baaff121e8fd7345b832cff1ee9390ae8eaa8976b1cf"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_42/train_1600.csv",
+    "destination": "data/seed_42/train_1600.csv",
+    "sha256": "091fbc9337a65e2fcbb737c21da2f54a1d2b4fd2324b608fa177bcbb9ad9aea1"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_42/train_2400.csv",
+    "destination": "data/seed_42/train_2400.csv",
+    "sha256": "dbffe99c365062fc21cc3773f1f6aa32ae782d55f83b0bde30b639ac84f568ce"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_42/train_3200.csv",
+    "destination": "data/seed_42/train_3200.csv",
+    "sha256": "efd94909dd2233123a2ab743cafdd9b00285ce1307f263bf58dc7d3e00635c33"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_43/test_set.csv",
+    "destination": "data/seed_43/test_set.csv",
+    "sha256": "12785d61027e92e605a2240f246a14e100d1c971f7bc4fc21d837dac68e6dbcf"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_43/train_800.csv",
+    "destination": "data/seed_43/train_800.csv",
+    "sha256": "4b82dbaf840a5ae611e9da525e9eac203d8d236419d1c5b8116b1f71b5b4bc83"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_43/train_1600.csv",
+    "destination": "data/seed_43/train_1600.csv",
+    "sha256": "321280deba6466bfa93880ec4bc34b13344e1451d9e90162bdd1efae265ece28"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_43/train_2400.csv",
+    "destination": "data/seed_43/train_2400.csv",
+    "sha256": "99f31d647342a9a29999859c227e9ff5ff2e8b223bf60b4566c209e8320d92f2"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_43/train_3200.csv",
+    "destination": "data/seed_43/train_3200.csv",
+    "sha256": "f2f83a148a2b7e74eff4b626565eee7105a3f8a70c6a9832bfeea1a934e0c790"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_44/test_set.csv",
+    "destination": "data/seed_44/test_set.csv",
+    "sha256": "943c0a0749f5003951f0da63cc26e7d0244d3e1f7b9eb4f01e57ddc3257fa308"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_44/train_800.csv",
+    "destination": "data/seed_44/train_800.csv",
+    "sha256": "97f5433e77b0f6c18cfbf1412b21833d651301f941506c6888902d61409b11f3"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_44/train_1600.csv",
+    "destination": "data/seed_44/train_1600.csv",
+    "sha256": "3fe1b3b7c23a5e3d4289b022d13e0ed61cb5bfe02c58da487e1fda2a1318e3aa"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_44/train_2400.csv",
+    "destination": "data/seed_44/train_2400.csv",
+    "sha256": "4b703f2ee00de434cd9dce7bb17722811fa1af77ade088cc9f729507b430071e"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_44/train_3200.csv",
+    "destination": "data/seed_44/train_3200.csv",
+    "sha256": "62c9b6ddaf6f5a9094970fb99c65ed2c96a43216dfd4f80f97fc5d99b34fabaa"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_45/test_set.csv",
+    "destination": "data/seed_45/test_set.csv",
+    "sha256": "60057e030702c931a868c68ac69effc47bef58a37e715f7d39ba19550df5d346"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_45/train_800.csv",
+    "destination": "data/seed_45/train_800.csv",
+    "sha256": "9da37a9d7da7e99e5d42aa3d9640e908bfec0518a1b0bd96200039bcceee5796"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_45/train_1600.csv",
+    "destination": "data/seed_45/train_1600.csv",
+    "sha256": "e55b7c9d74373b5dbe83705ba6760a2556010b67f0eda38204dbc985fe898b66"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_45/train_2400.csv",
+    "destination": "data/seed_45/train_2400.csv",
+    "sha256": "8fc6feec3d32b56bef0207c662ab91763ad358614830c02a03c20aac1ff2f399"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_45/train_3200.csv",
+    "destination": "data/seed_45/train_3200.csv",
+    "sha256": "942d4e8cdfe8d7edb4eb1ee5b5a7ece32583e9684733fa7849029448e71d7508"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_46/test_set.csv",
+    "destination": "data/seed_46/test_set.csv",
+    "sha256": "64ca439bd8e4b2fc95062bbf5e5d956a1072984ca253677f552f1e2bd4aef175"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_46/train_800.csv",
+    "destination": "data/seed_46/train_800.csv",
+    "sha256": "5bd8b982acfac65fe42fe18ffc8878bc9cd2b481cb35f12fd05d66a1a0d8e9ff"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_46/train_1600.csv",
+    "destination": "data/seed_46/train_1600.csv",
+    "sha256": "26b28e50b6d564faab8abed758360c1552fce3ff55fafbf5803fbd0e9c56a58e"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_46/train_2400.csv",
+    "destination": "data/seed_46/train_2400.csv",
+    "sha256": "fdec6f2e95fd0cda2bfc68d69600e3dcb20f52070fa553eba8e33557dafe47f8"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_46/train_3200.csv",
+    "destination": "data/seed_46/train_3200.csv",
+    "sha256": "55439c0dd4bf6cf5fb74fb10f79b8b3b2e384f816f5706159d41155625e58e3b"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_47/test_set.csv",
+    "destination": "data/seed_47/test_set.csv",
+    "sha256": "e3072d3a3076d550bb660daebc665e280ab6ef577b48cdc4f1afd9a735229d99"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_47/train_800.csv",
+    "destination": "data/seed_47/train_800.csv",
+    "sha256": "1a8da78f65cb898a7e1d92c01452f2676299514537b1714faa01f377f457fb0e"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_47/train_1600.csv",
+    "destination": "data/seed_47/train_1600.csv",
+    "sha256": "cc6ad25210333e38f3ab646133d4d4511441658fd117ebf754996f02c7fccd19"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_47/train_2400.csv",
+    "destination": "data/seed_47/train_2400.csv",
+    "sha256": "98e36ed43c94be333fc994e0ac6087b334705a68ccf7f63b4ece6cb663d8a7c1"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_47/train_3200.csv",
+    "destination": "data/seed_47/train_3200.csv",
+    "sha256": "0f19d12f4db740be0c15b9f40c0c69de5149aa4f6d380aa3abc6caa3c84737e5"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_48/test_set.csv",
+    "destination": "data/seed_48/test_set.csv",
+    "sha256": "514360e2a911c7eea9daedad126b35b81d3fc484a5deb447764123d823b75da3"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_48/train_800.csv",
+    "destination": "data/seed_48/train_800.csv",
+    "sha256": "6f6c4ab03c348242fe78fa622f938489193b04bc68115f46e51b321e058d3285"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_48/train_1600.csv",
+    "destination": "data/seed_48/train_1600.csv",
+    "sha256": "68af0165115ed62d2b52ed41a7fc7af0b78343ce2e804e7dd936ce4e0dac3812"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_48/train_2400.csv",
+    "destination": "data/seed_48/train_2400.csv",
+    "sha256": "0d22cff88d1ae8e8ab1c8de14a53a60c3b95a85aec5c3a50bcb765b2b647d802"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_48/train_3200.csv",
+    "destination": "data/seed_48/train_3200.csv",
+    "sha256": "67967415667aba19b810d43c7ff48df2d350456d81e9462fc41d043d5845c5e9"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_49/test_set.csv",
+    "destination": "data/seed_49/test_set.csv",
+    "sha256": "49eb8bffe3ecac89744ed23fd9f1a1bfcc885b06cd720946f8adab0db34ae14b"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_49/train_800.csv",
+    "destination": "data/seed_49/train_800.csv",
+    "sha256": "fb1b3627d12d0fb8fb325eb2554e1ff4c8bd4bf1595a0118537136998bd58d02"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_49/train_1600.csv",
+    "destination": "data/seed_49/train_1600.csv",
+    "sha256": "efe770937ce259e38f413b6972119195c20b6ed3ac3d3d713c76fc1c8d689b70"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_49/train_2400.csv",
+    "destination": "data/seed_49/train_2400.csv",
+    "sha256": "b2be9dd9ca481f78e74e98a3d62b97e7a9b97f7e9986f6413166e6cc099858b0"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_49/train_3200.csv",
+    "destination": "data/seed_49/train_3200.csv",
+    "sha256": "47b1d813fb78c550f74ee117b9788f3ebeedbb3d47cf94b2b24a248e01b283d0"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_50/test_set.csv",
+    "destination": "data/seed_50/test_set.csv",
+    "sha256": "2fb6bbf0caac4dd604f2954e42a68dfd79305f6bd02e4d9441347e8dd49b0883"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_50/train_800.csv",
+    "destination": "data/seed_50/train_800.csv",
+    "sha256": "4e33796067b3b6972fd2df4f0138bcda810d92866b41c171da5fc35c1d129a56"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_50/train_1600.csv",
+    "destination": "data/seed_50/train_1600.csv",
+    "sha256": "160d9d13cb77c0b5299bdb6c27bc999b32599fa7a37bd8b416dbf64c4774189f"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_50/train_2400.csv",
+    "destination": "data/seed_50/train_2400.csv",
+    "sha256": "40352195f414ee0a551b533cfcc1db0528031559b4cc8d555dee4ea81ba3d9d1"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_50/train_3200.csv",
+    "destination": "data/seed_50/train_3200.csv",
+    "sha256": "ddc34ad009e6f942fc95d496b91a68fbdd465646ea11a7d23e4cf3d7cb8afd1c"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_51/test_set.csv",
+    "destination": "data/seed_51/test_set.csv",
+    "sha256": "fff319b41f2ba3e95eb29e4ba328db1b33c98d08c9e156ea4f74774755295ce0"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_51/train_800.csv",
+    "destination": "data/seed_51/train_800.csv",
+    "sha256": "2a26888674b4c5ad48a7089d28bde89464d04c266e3c238dfbfbf299e2c5528f"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_51/train_1600.csv",
+    "destination": "data/seed_51/train_1600.csv",
+    "sha256": "eb8ab422a290ae95c9aae569a7ff99e223bcd4c562a3f16ca5005ef46d39493c"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_51/train_2400.csv",
+    "destination": "data/seed_51/train_2400.csv",
+    "sha256": "c554f5815049ea0bb84f9befb4f9ebdceba1ba780bd4e405445956dc6dc1ab47"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/seed_51/train_3200.csv",
+    "destination": "data/seed_51/train_3200.csv",
+    "sha256": "733baf9bf0c60538936ab9da92c4c4cd04d2c61fa8eeb0bea501cd0dc4f94d48"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/LICENSE",
+    "destination": "LICENSE",
+    "sha256": "8b90f63321779c8d920ae9b2cbc3eb935ed9b75db6a025d538bd73a525e73d1c"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/data/total_dataset.xlsx",
+    "destination": "data/raw/total_dataset.xlsx",
+    "sha256": "86ef18854b0bf4fb9552c9e6ad06782c5de8df87e2a3c7c31d15c8f376283d53"
+  },
+  {
+    "source": "main_clean.tex",
+    "destination": "main_clean.tex",
+    "sha256": "f7546780f9c99fee49d9113ac74eb4e528001bda9342d8b94a803f1d423d81a3"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/aggregated/run_20260326_083044/confidence_intervals.csv",
+    "destination": "results/reference/classical/confidence_intervals.csv",
+    "sha256": "e1167e5d9ed6fb1a227a156db60f43bcb73e3cb1456ff66593e4b8e72c85d371"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/aggregated/run_20260326_083044/latex_table.tex",
+    "destination": "results/reference/classical/latex_table.tex",
+    "sha256": "01faf487a835fbd1f76195c7c7635443574e2bc62bf0dffc377a45d5050ebe9f"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/aggregated/run_20260326_083044/statistical_tests.json",
+    "destination": "results/reference/classical/statistical_tests.json",
+    "sha256": "35c7b39aff36a47a6bdff22d37f54fa67176c59264c84a4dfb9943aa8a296ec6"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/aggregated/run_20260326_083044/statistical_tests.txt",
+    "destination": "results/reference/classical/statistical_tests.txt",
+    "sha256": "c39dc533b39cb087e0500b94ddada40de8f0df9fb65e82311ab71c4e181ff2d8"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/aggregated/run_20260326_083044/summary_table.csv",
+    "destination": "results/reference/classical/summary_table.csv",
+    "sha256": "9b326fdf2386ac9a5d4d9c3959952792878f4e0f43bdd18a0da4ad3f88236f53"
+  },
+  {
+    "source": "ann_regularized_baseline/aggregated/run_local/ann_reg_classical_per_seed.csv",
+    "destination": "results/reference/ann_reg/ann_reg_classical_per_seed.csv",
+    "sha256": "7608a50f2d4413f69a0e3872589f054c1d155d03c8c1e22f90800d9572cdd766"
+  },
+  {
+    "source": "ann_regularized_baseline/aggregated/run_local/ann_reg_per_seed.csv",
+    "destination": "results/reference/ann_reg/ann_reg_per_seed.csv",
+    "sha256": "3d7e3132c1e6ff4288a576651b296fe32c1b35d55be9f2eac921e9c7e923bcab"
+  },
+  {
+    "source": "ann_regularized_baseline/aggregated/run_local/ann_reg_summary.csv",
+    "destination": "results/reference/ann_reg/ann_reg_summary.csv",
+    "sha256": "b9706f0ffe94f260d712dcb92401c14fa6556a788ea8cb0aefe3e85d739ec456"
+  },
+  {
+    "source": "ann_regularized_baseline/aggregated/run_local/reproduction_report.txt",
+    "destination": "results/reference/ann_reg/reproduction_report.txt",
+    "sha256": "49cf75e9577700a990e57e295177bd7204d4d6b5cbe204da3633e8d475785cff"
+  },
+  {
+    "source": "figures_revision/data/qnn_per_seed.csv",
+    "destination": "results/reference/qnn/qnn_per_seed.csv",
+    "sha256": "6b7583709b38c5d37db63850de0a6725d82f1f984534c40aa111752965614ee4"
+  },
+  {
+    "source": "figures_revision/data/noise_summary.csv",
+    "destination": "results/reference/noise/noise_summary.csv",
+    "sha256": "41f96806329810cf6f3ed0f9dbf1682b622e3957ddc5e2e728ecc62ca0ea8dda"
+  },
+  {
+    "source": "figures_revision/data/noise_per_run.csv",
+    "destination": "results/reference/noise/noise_per_run.csv",
+    "sha256": "574e1e2428decfe663061eb1434f4cd85241b3fbff72d65e1e6da1a6a9da1e95"
+  },
+  {
+    "source": "figures_revision/data/classical_per_seed.csv",
+    "destination": "results/reference/classical/classical_per_seed.csv",
+    "sha256": "49a9c10e997df07f4bccc9bd4b9b23b41ff607512f7eb2e8799176c9bbf324af"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_42/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/qnn/seed_42/exp_3200_predictions.csv",
+    "sha256": "fdfdba54480573a2c91e2680387abe7581d7b833b22d831a9d65aeb0385a320b"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_43/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/qnn/seed_43/exp_3200_predictions.csv",
+    "sha256": "c4aff39c12956ca17b56a9cddadc53865adc51dcb9f669e0a17d2b9aa2ebc356"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_44/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/qnn/seed_44/exp_3200_predictions.csv",
+    "sha256": "1e76c9c9b897a0061a3a81149c81be9b6a6d55deaf1c4f9f136c23752d966b81"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_45/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/qnn/seed_45/exp_3200_predictions.csv",
+    "sha256": "e95d23354dd9e314cba71e4d4cc342ddf7d6734e4d48434f2bb4e5583b195ae4"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_46/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/qnn/seed_46/exp_3200_predictions.csv",
+    "sha256": "d3b01c5a4906df408d3cd0f0cfe35afc656e089bab2c8b2a56d163c25dbcb769"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_47/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/qnn/seed_47/exp_3200_predictions.csv",
+    "sha256": "93ce847a4b3a20c7063ab16e06c4db1c9d7025fafd8cf9460b55eba0f1504f1c"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_48/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/qnn/seed_48/exp_3200_predictions.csv",
+    "sha256": "173b288fde53f74f3d02d27ab66d9267f364f800e34e9233f9e7cb441cfd7c86"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_49/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/qnn/seed_49/exp_3200_predictions.csv",
+    "sha256": "751eda546d1fa3e321a8f6959b6e96c748734d0e3da598760d6b85f74b4f2c10"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_50/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/qnn/seed_50/exp_3200_predictions.csv",
+    "sha256": "dd46a2880822e5b052f22978422f9f1340cda97c992ea50e7aad145e83116c94"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_51/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/qnn/seed_51/exp_3200_predictions.csv",
+    "sha256": "12c2bf2502e103256c3d9bd564621342606ed0ef5b6378e5ae100060915ca6c9"
+  },
+  {
+    "source": "figures_revision/data/ann_reg_results/seed_42/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/ann_reg/seed_42/exp_3200_predictions.csv",
+    "sha256": "7a4ac6a632871996dd959ed5544d40e4a3ccb9c419e91648d47b6e428bbe50e6"
+  },
+  {
+    "source": "figures_revision/data/ann_reg_results/seed_43/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/ann_reg/seed_43/exp_3200_predictions.csv",
+    "sha256": "62ef0576242b64544dfcf0ec0a7ef71915464e78e3d6add2ad5fd43890863982"
+  },
+  {
+    "source": "figures_revision/data/ann_reg_results/seed_44/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/ann_reg/seed_44/exp_3200_predictions.csv",
+    "sha256": "ecd1a140d61e22c30616cda56b366f825eeffda56052b45de40f06c9f388a824"
+  },
+  {
+    "source": "figures_revision/data/ann_reg_results/seed_45/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/ann_reg/seed_45/exp_3200_predictions.csv",
+    "sha256": "7ea280a9d2bd62ba810732bf881f6726cb0b8cbc8fe33ad6be6797028ee36721"
+  },
+  {
+    "source": "figures_revision/data/ann_reg_results/seed_46/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/ann_reg/seed_46/exp_3200_predictions.csv",
+    "sha256": "7fade8ee849deaf4b705cebfab75ce6c0671a2a074e05e885ae4b68f32a54a34"
+  },
+  {
+    "source": "figures_revision/data/ann_reg_results/seed_47/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/ann_reg/seed_47/exp_3200_predictions.csv",
+    "sha256": "28bdf75df8ef588094cd523f3bed43856e48117916f3aaa70b3d13ff31d50077"
+  },
+  {
+    "source": "figures_revision/data/ann_reg_results/seed_48/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/ann_reg/seed_48/exp_3200_predictions.csv",
+    "sha256": "282f7ef34561f7fa2ca74e5f3b714acd5fd6396749330b124303a12adf236723"
+  },
+  {
+    "source": "figures_revision/data/ann_reg_results/seed_49/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/ann_reg/seed_49/exp_3200_predictions.csv",
+    "sha256": "94059bf6fe4b1be378f13287978329c413eb9bccf570c634e44511a06e2af5db"
+  },
+  {
+    "source": "figures_revision/data/ann_reg_results/seed_50/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/ann_reg/seed_50/exp_3200_predictions.csv",
+    "sha256": "6b9dc2133bfa69a0bd61af7fd7ee5feb1baf2577fca4296c58e5907df0e90edf"
+  },
+  {
+    "source": "figures_revision/data/ann_reg_results/seed_51/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/ann_reg/seed_51/exp_3200_predictions.csv",
+    "sha256": "166a543f4d777f2704644439664ed0375afef8d42ea4a2346fb33d2db4538a78"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_42/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/ann/seed_42/exp_3200_predictions.csv",
+    "sha256": "ae9873b415bc40a6ce7ff963a22904c7aa66232c8f481d432344de4405985b1f"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_43/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/ann/seed_43/exp_3200_predictions.csv",
+    "sha256": "62ad1581eee9fc3bccd160a033bb7dd9c8a874b59fba4598d1f902f4d1fe9f44"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_44/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/ann/seed_44/exp_3200_predictions.csv",
+    "sha256": "c65b76f50eaedbf58cd0beb0f6a7e488b8d116dfac9408dbe64d56583651b153"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_45/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/ann/seed_45/exp_3200_predictions.csv",
+    "sha256": "a3a46a51d176d7c1891d8f6225a47d8436b687536877ef5e0a16034ab4b3ea0c"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_46/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/ann/seed_46/exp_3200_predictions.csv",
+    "sha256": "5caa9797e253eb3225cb69de048b6b78f533425090b66982bbbd5406a1076df8"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_47/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/ann/seed_47/exp_3200_predictions.csv",
+    "sha256": "9d7df7ecdbd90a2e42df508103918c366786b0a73330c422a99559940a472406"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_48/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/ann/seed_48/exp_3200_predictions.csv",
+    "sha256": "1be8f3f59c8b8c9d36876d5f641e3d973d9d51b239035ef70b03ca0c13f941f0"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_49/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/ann/seed_49/exp_3200_predictions.csv",
+    "sha256": "c4f62b485df32c5b05d678136e131926ea1d2824de6a2ae45fa57e8b6ab7444a"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_50/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/ann/seed_50/exp_3200_predictions.csv",
+    "sha256": "f09557e041e7121f24b84c2723b24b2f6d87fd64b2b806568913836feb9589ba"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_51/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/ann/seed_51/exp_3200_predictions.csv",
+    "sha256": "2e7dd5e2e9c4a8bdd3d0743a901a5451fe842ca2115a541cb7775efa2c75cbd3"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_42/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/svr/seed_42/exp_3200_predictions.csv",
+    "sha256": "452054e2f11e8bb51dbaed3130c3f343fae3a86a7202301e2dca11a995138547"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_43/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/svr/seed_43/exp_3200_predictions.csv",
+    "sha256": "d798011f788f146295d8af2a7808822755ff2da0833a451b86d27cc0cfce5e57"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_44/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/svr/seed_44/exp_3200_predictions.csv",
+    "sha256": "2af988155a638f4f286a34efa8689b65c45544b60d65659544df58ba2d8977c8"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_45/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/svr/seed_45/exp_3200_predictions.csv",
+    "sha256": "600481d1920734ad6cf7e28ddb8e0153662b23aa72f388d3f93568630c51d5f8"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_46/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/svr/seed_46/exp_3200_predictions.csv",
+    "sha256": "8e360397c69bd6e25ad641719be334793391d9f618db888950e6eb6feba5df93"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_47/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/svr/seed_47/exp_3200_predictions.csv",
+    "sha256": "2d081d478f16089be4b78675835da40f04c1fab58863a6ffe520ae0837397796"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_48/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/svr/seed_48/exp_3200_predictions.csv",
+    "sha256": "7e90b79f991d9eb44d9844799fc6a9e77c86ffbb242f0ee31b3b923b697b5ced"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_49/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/svr/seed_49/exp_3200_predictions.csv",
+    "sha256": "ceed8eba1394e80b13254ed53be7cf05775e2e85285aa9639935401700aa980b"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_50/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/svr/seed_50/exp_3200_predictions.csv",
+    "sha256": "43face3c597464d5d0431992b7d6948cbeb4068e47efb6636e5fc916de382c91"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_51/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/svr/seed_51/exp_3200_predictions.csv",
+    "sha256": "98d10cba5ea74436fa2912cdf05e4d8ad99185b8fda634b15c73613759abde0f"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_42/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/dtr/seed_42/exp_3200_predictions.csv",
+    "sha256": "30084f9ccd4e12f8209b26444e9a706c6113fdfa8fdb178d39bcecc1146fae3d"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_43/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/dtr/seed_43/exp_3200_predictions.csv",
+    "sha256": "8fa3140660a271a4f5045ee0d7bc53e44d13901f10f32af28aa0f018a6fed995"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_44/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/dtr/seed_44/exp_3200_predictions.csv",
+    "sha256": "419144528f5fda77a2eb5613daca64610a9f62531114ebb7eef274f6f9e190b7"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_45/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/dtr/seed_45/exp_3200_predictions.csv",
+    "sha256": "3ba604cec6c58810222e78f02c21d103aed5d17ef23e2a651ee46467458c7c33"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_46/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/dtr/seed_46/exp_3200_predictions.csv",
+    "sha256": "55c3727aca6997be23895d884e108a16903853a7c172d12b5a48d37ef5435e15"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_47/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/dtr/seed_47/exp_3200_predictions.csv",
+    "sha256": "68dd98de31b7656223ea9bfd4c5917385c1faf801022056c82edeb7b0159b476"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_48/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/dtr/seed_48/exp_3200_predictions.csv",
+    "sha256": "d866bca79fa69d093fd8acafee2850103117be4ce81407fbec0f1dc1d8421be6"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_49/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/dtr/seed_49/exp_3200_predictions.csv",
+    "sha256": "91e77a9cad242fb147a0613c15dcedd6fd0c27218e73d22e5bad51a71b4c2eb4"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_50/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/dtr/seed_50/exp_3200_predictions.csv",
+    "sha256": "e153a5926a436adb71d49ce1f047788737ddba579449b33dfe17aa1876981d75"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_51/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/dtr/seed_51/exp_3200_predictions.csv",
+    "sha256": "01cd537e2e48132ebf4f4b189cdc16b4d8ec44308409d19ae9462523a21edb4c"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_42/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/rf/seed_42/exp_3200_predictions.csv",
+    "sha256": "31f649a212672d2cc5e0eef86807acf0e441fb981aafcc8ac1855bfe92741e3b"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_43/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/rf/seed_43/exp_3200_predictions.csv",
+    "sha256": "3e49015ad32a05082859568c7e433c9860eb0eaf049ebc93c8f02d1dc8574f0e"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_44/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/rf/seed_44/exp_3200_predictions.csv",
+    "sha256": "de6adcd6dc88e647378a7c31b3656a53aba4847dac3580440ccfd0413f0663d0"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_45/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/rf/seed_45/exp_3200_predictions.csv",
+    "sha256": "fcaf9f847c0b5a6837cf57122cad2b894677b98295a7e299927e9ad1889ea5d8"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_46/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/rf/seed_46/exp_3200_predictions.csv",
+    "sha256": "20e8b046194e225c0e98b4e1aaa7df51d7b71f9752a35ad005cc6323e1899c37"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_47/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/rf/seed_47/exp_3200_predictions.csv",
+    "sha256": "de8764f1d03aa89db70f6e44564798a08ad445fdd011ab83fce1edfa743658ca"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_48/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/rf/seed_48/exp_3200_predictions.csv",
+    "sha256": "5a2b8adda236684480e6caa1bb7adefb3e051b8bb14e53ba98c19fc6d603d1ac"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_49/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/rf/seed_49/exp_3200_predictions.csv",
+    "sha256": "79d720b9faf56b7c031680cda278d0b3f53b0a972167d10dd2d47cfc960813c6"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_50/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/rf/seed_50/exp_3200_predictions.csv",
+    "sha256": "a2e694951fc7162080a04e2f5a3b2fd57c6277a4391b2fc13fbba40a944463fc"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_51/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/rf/seed_51/exp_3200_predictions.csv",
+    "sha256": "caa7e29d6ff9e465823da8fb9fdcb5ef5f0f7cec6ed68e79b85e7bd2ed7d124f"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_42/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/xgboost/seed_42/exp_3200_predictions.csv",
+    "sha256": "d000f8129b4a621ff5397a235d7f2d749cdac0b420903c7a99163d25f59a70bc"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_43/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/xgboost/seed_43/exp_3200_predictions.csv",
+    "sha256": "1625b631002d2e60ea3ae08607ed8db4c4f9867d6274d60c65ab576d0b87991b"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_44/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/xgboost/seed_44/exp_3200_predictions.csv",
+    "sha256": "31871abda36cffa71dd52c12879c06e2178bd1f4508596cd557c914f71142dec"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_45/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/xgboost/seed_45/exp_3200_predictions.csv",
+    "sha256": "401a89879447042dbdc34c56ebd08b09e0b23f1b08cb8c1adc1a3e961cc8cee7"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_46/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/xgboost/seed_46/exp_3200_predictions.csv",
+    "sha256": "629f4ea316a760b44bd3008920c9af462bc95c6fca2e7cbe13f2ddcfa6a87863"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_47/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/xgboost/seed_47/exp_3200_predictions.csv",
+    "sha256": "a1a0c6cac30f51b2b0d63aa98c9ed896e1f71089b97fa6831d44543e2622b21c"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_48/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/xgboost/seed_48/exp_3200_predictions.csv",
+    "sha256": "de705c4e55204d58cdc78053baeb364c4c932e465b630aa7708420205aad7b37"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_49/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/xgboost/seed_49/exp_3200_predictions.csv",
+    "sha256": "7424e94fcc0debecc880361bd20dce7bdf0b5f2cbdc3e59b2320be67994467e6"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_50/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/xgboost/seed_50/exp_3200_predictions.csv",
+    "sha256": "408216dce4eef687bff564319d742021660aa34128ac040a324f03322eceff1b"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_51/exp_3200_predictions.csv",
+    "destination": "results/reference/predictions/xgboost/seed_51/exp_3200_predictions.csv",
+    "sha256": "c2db892c35545d011a2fe46ad9c7dd1968ecf53cdb81b17fd45e198b7db3c199"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_42/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_42/exp_1600_metrics.json",
+    "sha256": "0b63650f03903aa34cb8c16bb34770099306fd854dd2fd94814fbca22fe5d496"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_42/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_42/exp_2400_metrics.json",
+    "sha256": "49d70d9029f11d1f4ec00491236749c5e67547adcda1f5323bda22fe776e1ac4"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_42/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_42/exp_3200_metrics.json",
+    "sha256": "1e5a1775f60e4daac23f6278b046a0b092b450c238c97e86e17391152538d365"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_42/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_42/exp_800_metrics.json",
+    "sha256": "88bf89a6e9b5a5d96accd8e5cabc65adb61ec8949cac9539aaaf53748ab52a3b"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_43/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_43/exp_1600_metrics.json",
+    "sha256": "f6cf8cda1ba6e6c311e53327b89add053ef070189be7d09509b0d65b78182acf"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_43/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_43/exp_2400_metrics.json",
+    "sha256": "6b000662f6f635a52f0a7984d53af7d705b1c361290a3f8a8c294e492e7b1f5c"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_43/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_43/exp_3200_metrics.json",
+    "sha256": "05bb2924cf5152339d57a2105cd3037ab4985e2fb7d3d1827118b132d64df593"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_43/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_43/exp_800_metrics.json",
+    "sha256": "14fbadf3a092711607fa38f6a8bc8fc76100110109ce408967ec094bf14fce73"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_44/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_44/exp_1600_metrics.json",
+    "sha256": "e10b04ab19284e96397e9dfa971f005bd2d1fea7327572d3f3aa75428dbf9cf3"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_44/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_44/exp_2400_metrics.json",
+    "sha256": "3db034667c413d09d062462fb023bfc93137e83d70ee1bc5123b3abdd482b82b"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_44/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_44/exp_3200_metrics.json",
+    "sha256": "2de689900fdfcf307a240b02b00f43f19a4d5d086a70e06099fa33b3d1743207"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_44/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_44/exp_800_metrics.json",
+    "sha256": "9b4eed710fd5fbae27b8cff44d468c9a36593509c34c54087150f2fff5a62a1c"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_45/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_45/exp_1600_metrics.json",
+    "sha256": "59d0fab7e3ded8573e5620b0ecb9f6552908ee3e8e0c5119118a790d6c633b94"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_45/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_45/exp_2400_metrics.json",
+    "sha256": "255708765abf5de2adc71ed453083d1ddd378ce3e8d4a794050286b37217309a"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_45/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_45/exp_3200_metrics.json",
+    "sha256": "74a8f1f0f23d4b6d6792d26fe56adf69e1fd16251ee2147dc9ee19027636320c"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_45/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_45/exp_800_metrics.json",
+    "sha256": "53ddf98e4caf23aa4fb1aa0fa1971b9a9da6dca401c53ebbf228680fdbe5edd9"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_46/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_46/exp_1600_metrics.json",
+    "sha256": "47c6eb4910d97995119491a6f1e367099b775c76131232ae4d4a7ce64c5f792b"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_46/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_46/exp_2400_metrics.json",
+    "sha256": "d33d8fbd77a0f62f4972be80743ffae2342906ee8ba4c12ecb7a16765a9577ab"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_46/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_46/exp_3200_metrics.json",
+    "sha256": "57ee5d67ff7407a9d73c34e4f1787093e4515dd45563cf6e4b1fc1ed9bcf3566"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_46/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_46/exp_800_metrics.json",
+    "sha256": "42c3d10f92ebebeb61875d0bd43acce011a0e132578caa37b61e0513a4fe3c1c"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_47/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_47/exp_1600_metrics.json",
+    "sha256": "f860508c4c5cbd2829c083e19eab6863abdc5dec4132cb7f10854513996928aa"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_47/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_47/exp_2400_metrics.json",
+    "sha256": "2081211791aceb42e56969515094eb59755efd90d9b45305abefc0ee4ccc146f"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_47/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_47/exp_3200_metrics.json",
+    "sha256": "ae3c1a46241f1ec58c7053e24377efefbb85ec7702d176f8ca4f96e5d95ecaa3"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_47/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_47/exp_800_metrics.json",
+    "sha256": "3649b0a1e54425c966d3350a40b327211813d6b5505b6527a1122a696f4f3a16"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_48/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_48/exp_1600_metrics.json",
+    "sha256": "dda3821de09a15421665d9a0b5e71605bc1801ce1dbef7a352e0f04ea984f5d0"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_48/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_48/exp_2400_metrics.json",
+    "sha256": "e87f052ae75b196119bbc3d78cc126a8e3718e22af898e3339aebba5b7684a6e"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_48/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_48/exp_3200_metrics.json",
+    "sha256": "3ccda8a4789727ee83c9aa96a35d504d7ca2729cb8437ab1452b82be64ed6b5a"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_48/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_48/exp_800_metrics.json",
+    "sha256": "e2aaea288bdeaa15dedc732575954bf7570738153492ada510a6dc3627631407"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_49/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_49/exp_1600_metrics.json",
+    "sha256": "d9858d4d9625cbf46b4a39301de58da7d47dab45c0c32cd3c566d840669baffb"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_49/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_49/exp_2400_metrics.json",
+    "sha256": "6db17b0febb780840bff3c0bf99d93c0591f1b8782620491d2397c2fe93b2e3d"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_49/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_49/exp_3200_metrics.json",
+    "sha256": "9765ac2238dbd202d3743ad0d490ba3ad388e369e6ef99b0134907ce2aa1e2ac"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_49/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_49/exp_800_metrics.json",
+    "sha256": "f1dd50a4409f78976b750b909ab26afc294175a15b4297d1b8dae89bf03333a9"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_50/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_50/exp_1600_metrics.json",
+    "sha256": "eedef8686de0508e089ec4996752aba11c3c61ee78a148e474d20228c1b45448"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_50/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_50/exp_2400_metrics.json",
+    "sha256": "93d6cd74c73eb72d80091d01519645606cfa474fb5356566656a8bec64adc0b0"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_50/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_50/exp_3200_metrics.json",
+    "sha256": "d1a6fb13f3ef28b7d27f4466dbe983583108f774aec124068914220d35993208"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_50/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_50/exp_800_metrics.json",
+    "sha256": "64174729e23969e4baf009238ed6a032b5890ddb7e4866708e19bc3bd794fd6c"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_51/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_51/exp_1600_metrics.json",
+    "sha256": "dfa0736dadbf9cadbf7208306efa843e05cc0c2024207a30035278a14f113cac"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_51/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_51/exp_2400_metrics.json",
+    "sha256": "8985989ad87d4140d2cfe394dfbaa097d75856f765106c0f84f8c094e31d0e65"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_51/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_51/exp_3200_metrics.json",
+    "sha256": "a7ccd535e0e54bbc6d7bd2648157e5e9f0b8101852db0cffd69433dcbdc84065"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/ann/seed_51/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/ann/seed_51/exp_800_metrics.json",
+    "sha256": "60b9cc76efb92e6b0fad1692e668dbe73e09149cae1fbb164a8aa2c40228a1c0"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_42/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_42/exp_1600_metrics.json",
+    "sha256": "675825aa720c361243ad265cfc9a26fca942d8edc4ec2453cffdd6a0a3277d26"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_42/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_42/exp_2400_metrics.json",
+    "sha256": "acd3a07202e318b30d5b7b49835aa5f86ebb156c0feb3dda80febe63b768a981"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_42/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_42/exp_3200_metrics.json",
+    "sha256": "78315996ed82855b7a05050f18a4159717a942df587b02392b1ef877c62669df"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_42/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_42/exp_800_metrics.json",
+    "sha256": "7630205fec258239f46d692cb96ac36b7969692cc3bf4b294882f21c6c45ae24"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_43/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_43/exp_1600_metrics.json",
+    "sha256": "bbc95755c294c488e6fa7118591ffe8f1d2c2f97debb801b47c06785bb80f4d0"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_43/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_43/exp_2400_metrics.json",
+    "sha256": "25b1283b0b9891666fb1b8d890892de600201eac2498bc24b2dfdcdff03584f0"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_43/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_43/exp_3200_metrics.json",
+    "sha256": "597e870150a7ce91f2a941b06ef25fc60a6789ff887ec452522b796414b7a778"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_43/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_43/exp_800_metrics.json",
+    "sha256": "b6d017d2139ff6d03bb54090d87bc9e246eeb554e08d459e4f9d0c17d56efd29"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_44/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_44/exp_1600_metrics.json",
+    "sha256": "6a14e0450dfc28975fb2350a753df1d017ff99a36536870d133f80ea1fd08cb6"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_44/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_44/exp_2400_metrics.json",
+    "sha256": "093caae447ed73a70349e678d185abb9a887344413020a4a463db0ce9ef7f733"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_44/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_44/exp_3200_metrics.json",
+    "sha256": "68dc38fc3224c6660270bd923d0f48009f2b464ba0cdb3932a59fe0dbf6b63ba"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_44/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_44/exp_800_metrics.json",
+    "sha256": "d771e2c362311e8d0fe9aea2ae57c25824d43585ebceb616e1cd891b75b9d388"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_45/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_45/exp_1600_metrics.json",
+    "sha256": "619a21878e8bc3bac5008fe0a7e69c2a2f03712d32a185069ee8508a95e1ac63"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_45/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_45/exp_2400_metrics.json",
+    "sha256": "e69d09ab0ee18ebd12b8ec3e46b85a14d8c0a87f426bc576856a4263cb4628cd"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_45/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_45/exp_3200_metrics.json",
+    "sha256": "16db38496646c59937e56960cc0396067de7b76db25e8fc389a6c40c0f15872c"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_45/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_45/exp_800_metrics.json",
+    "sha256": "8c185bb24b71ff9df2ed39d7105abd530e2c04b7b57a9e6d73fa24003274619b"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_46/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_46/exp_1600_metrics.json",
+    "sha256": "8d3b4730f07fb814cb48098fa7fe552f332c8c6f850763570baaa62f62afa7c8"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_46/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_46/exp_2400_metrics.json",
+    "sha256": "232a3ef2a8402f521190a21e37af90acdc0980d5763c0eab0346cf9c4f1d1196"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_46/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_46/exp_3200_metrics.json",
+    "sha256": "5792dc925acfbfd6d7a67fbe770452450d887dcfa90a98dfdf817a0d5041c18f"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_46/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_46/exp_800_metrics.json",
+    "sha256": "97aded48226249d4821d895c76172e19c276f1a15d4c1fd3398b7fcd6653d8ed"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_47/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_47/exp_1600_metrics.json",
+    "sha256": "e9afccabdcf2d60c9cf3ce5c384a2cd407cc31a42ffdfae8557c7e35be6d5033"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_47/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_47/exp_2400_metrics.json",
+    "sha256": "8c56121b898f1818ab64f0f40980b83cd4b7e1e24c66c7ec6a9a205a4e3d2117"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_47/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_47/exp_3200_metrics.json",
+    "sha256": "5e89f457a85a6b1ae76525585e389a44d863dc46c8a23dc13218b2b349f60434"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_47/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_47/exp_800_metrics.json",
+    "sha256": "9161e977bfb822ff1d52a91633c375a3fd9ff72d6401b7d6e8c54dead22da7f1"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_48/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_48/exp_1600_metrics.json",
+    "sha256": "581a1c965e2e437af3c18a6c57403a3ef326f36610559fd992541bcc1bd3aaf8"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_48/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_48/exp_2400_metrics.json",
+    "sha256": "c5a5890d7437c12c17e1bfd27d107d6952c03c8435b09e2837f5f60efe0d5edc"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_48/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_48/exp_3200_metrics.json",
+    "sha256": "a0f209ab8e3c7f9681bc86483c1d73f716fcd2e88c0238ca39e491d02a50acee"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_48/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_48/exp_800_metrics.json",
+    "sha256": "45c39e464d92a48723742a869fc8ec628c74bc9cc82155156e570c68bc757547"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_49/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_49/exp_1600_metrics.json",
+    "sha256": "467802690cdcaacebe82a4ec59ac15f2b374d420d5963b955c66cb67d10427c9"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_49/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_49/exp_2400_metrics.json",
+    "sha256": "5c1e73b214bd72aa37e3259f2c2e79a77de74e3c8c7ccdef298fcebf602a8c4c"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_49/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_49/exp_3200_metrics.json",
+    "sha256": "ffd28143ad1fcec748f20e816c08ac840bdc7ae7af5b8a6a4726e2094aa20c52"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_49/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_49/exp_800_metrics.json",
+    "sha256": "3c169b2ecef0174bdd4031e38d9445017d41d9623b678a9fbd7c8c0c43b2e819"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_50/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_50/exp_1600_metrics.json",
+    "sha256": "ab487c1426cb9c6b9f084daa45c6ec85e9097b91edae5ec032bb24e7b65ae3aa"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_50/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_50/exp_2400_metrics.json",
+    "sha256": "bfe7cc8667357d0b9b488f13a49a32d5144a92e3eb021e57f66346359c1a3a6b"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_50/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_50/exp_3200_metrics.json",
+    "sha256": "b789c5153843d336721c145eebb8ff4dde3d6f551480f2f5378aa6df9b773d49"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_50/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_50/exp_800_metrics.json",
+    "sha256": "12b3324073da119e36049b6a46da837b3766ecc23172945e1062f881188af832"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_51/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_51/exp_1600_metrics.json",
+    "sha256": "70f1057e1447cd4e31797af7879bfee20691019ca4d91f3551450c65ca139a66"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_51/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_51/exp_2400_metrics.json",
+    "sha256": "97be1de01de9bcad3c9f82c4844edc398b6af5603962284595904e0515c770f7"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_51/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_51/exp_3200_metrics.json",
+    "sha256": "0458bf033f44f3d661978914e27ee22bfb0e0e4f0584d49bc88b983d40435468"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/dtr/seed_51/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/dtr/seed_51/exp_800_metrics.json",
+    "sha256": "a53faa9d24c04736501d5e6ec9581f53e176d9d268621d4250e27671e8abb85b"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_42/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_42/exp_1600_metrics.json",
+    "sha256": "945eba92915997ca8f381dfcb02e04d96000c271101cd0baa9755334580db516"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_42/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_42/exp_2400_metrics.json",
+    "sha256": "79b44a50f706ef213c831a9292e8dddfa2e61a7e8a4ab5ce0ff436ae3a16136d"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_42/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_42/exp_3200_metrics.json",
+    "sha256": "18dbc3fc79fa6bf87d5b06dc570dc89ba42d2d3c4a36dc53350b3c97c66d992c"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_42/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_42/exp_800_metrics.json",
+    "sha256": "439abea1ebc6223916ed5b2fa8799f9535b32a103d7445eb5844ea68e0a5c0db"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_43/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_43/exp_1600_metrics.json",
+    "sha256": "6eeaec7f853249f8f5aa738950dc18e6fe5f41e24b80118eb354a8829e7f557d"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_43/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_43/exp_2400_metrics.json",
+    "sha256": "2a749b28f75cabaa75108dc8c43b030772baf7d2c5fe01768f65bbd07a6cbaba"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_43/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_43/exp_3200_metrics.json",
+    "sha256": "9646bafb97cfa7b03792f06929005874e1e073df274f3275c1d5d8c2effe8c8c"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_43/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_43/exp_800_metrics.json",
+    "sha256": "e94dee904df9cab2cd7871a518e0ad730e20524202fcb8e1f7ad4348f0d4a77b"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_44/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_44/exp_1600_metrics.json",
+    "sha256": "9119cb0987a1acb7244002901d0328b7586c42c35010c7e364863e25804694f2"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_44/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_44/exp_2400_metrics.json",
+    "sha256": "d3664043f1e8cd648b0e510e11c2cff8c32feffc20b0b2c1a9da102ee91fd7dd"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_44/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_44/exp_3200_metrics.json",
+    "sha256": "fd6ca9bd961486cdfea3cb0687226e8c815652e979d8d56f413ab946f3eefbcd"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_44/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_44/exp_800_metrics.json",
+    "sha256": "75f9e0596d477b80c455011b4036d3f951afdb7c59ae02456172fa5d5d609a05"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_45/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_45/exp_1600_metrics.json",
+    "sha256": "6740f15d02ac926266d02f6b8817cdf72d80f6d7aa7dab88acc74bfc01f13647"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_45/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_45/exp_2400_metrics.json",
+    "sha256": "b5b0c47e945fe621cfd878755c85d28a8a40a0cfaf6755c68c9445f18d94840d"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_45/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_45/exp_3200_metrics.json",
+    "sha256": "5a4ae18d26e2d3cbd9de25fdd981bffcd160103c8a4bf2eea937f87ceba2d240"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_45/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_45/exp_800_metrics.json",
+    "sha256": "92fd3dadc9640e21a2f22053c95ce30951ea94320ae19626398584f4edbead44"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_46/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_46/exp_1600_metrics.json",
+    "sha256": "8dd4d827ed20c4f71e175beb77bbdbe0b16314afffc32b8485eacd953f82e7e1"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_46/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_46/exp_2400_metrics.json",
+    "sha256": "ea7aa7d75b65727ced831708e297c932e9bfb30215df3bf8e4ad4fdc781f89b7"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_46/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_46/exp_3200_metrics.json",
+    "sha256": "4021f0158ef9b28540f5e9188a3510a428746df742a400a9cc6dd6ff02d501e5"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_46/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_46/exp_800_metrics.json",
+    "sha256": "3953018ae99b97146b7d50d39d9acbb958de1fcbb63cdc5dd554c1726dd4b74b"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_47/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_47/exp_1600_metrics.json",
+    "sha256": "3bf71f2204d5de727637f57eda454dc9d9c53b1f2b17b90dd9be7a72cfa642f9"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_47/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_47/exp_2400_metrics.json",
+    "sha256": "3823b859e790139bb04e6b9781532c5ee059d2c5da6db30cf9e082e0b4d05ca2"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_47/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_47/exp_3200_metrics.json",
+    "sha256": "dabb49a97bfd2d309fe939b7a63db2137bf2e647d83c45b5f0afeb8fb9a9d52d"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_47/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_47/exp_800_metrics.json",
+    "sha256": "ba0c4634f11e9e2167600153518c016e53ce7189558a0780a1cc8cf67d7437ac"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_48/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_48/exp_1600_metrics.json",
+    "sha256": "e324f2dda6e3098a596282a2baafa4264ed9a68d74610cd59cdbf93da5265cc7"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_48/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_48/exp_2400_metrics.json",
+    "sha256": "42b0f82e5ab8a64d5dd84b392ca66df190569e718bb58cb5faa75dc782546e73"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_48/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_48/exp_3200_metrics.json",
+    "sha256": "6aed0f0b3853b8630313505069d37e434aa74acde8b22e9a84168241baa68c04"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_48/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_48/exp_800_metrics.json",
+    "sha256": "16ab93240f88401698afe7b36e9e379e0f73567aa5a991ed33f6f5ca3f59837c"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_49/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_49/exp_1600_metrics.json",
+    "sha256": "d4d3f9417b5725b0deb13d9e46eaad276bf695e4b35520b35ff58cc0039a9eb2"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_49/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_49/exp_2400_metrics.json",
+    "sha256": "9538a7e2948dcd8147d34da712123f123fb2db89459c5df9770f499cb8471583"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_49/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_49/exp_3200_metrics.json",
+    "sha256": "bd66bbc6bf6fbe0882bf58c9cbc42c957131b08f24db161d19d112b418fef097"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_49/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_49/exp_800_metrics.json",
+    "sha256": "e6ef156d9574f97b4afed9d1890caef940b36aa3a4bc05f3d0e019788177b6d0"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_50/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_50/exp_1600_metrics.json",
+    "sha256": "84ec942f67e5a77713b77c23a0f2bfb92441dcb017bee9d6e9ea0e12f188ddf3"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_50/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_50/exp_2400_metrics.json",
+    "sha256": "fba5e4ff24f173168ed6aec26223254103d081c92add4759f435d78dab37d10d"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_50/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_50/exp_3200_metrics.json",
+    "sha256": "e15132c6787d8676a95e4fe1153e6c8e7d6a0d5f22dd5cd713b93c4526e4afbb"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_50/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_50/exp_800_metrics.json",
+    "sha256": "854c4bd97c34edef5b4e45175eb91fbc4b1a2480c3071735b86673c3b3985915"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_51/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_51/exp_1600_metrics.json",
+    "sha256": "78c921038407612ad0f231b1f453ddaafeedd9a94add21e470e0090a1424cd00"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_51/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_51/exp_2400_metrics.json",
+    "sha256": "5d0f543888888ee119f4d35d11307212f56bb5d2f707efd0b575593fdae89b41"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_51/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_51/exp_3200_metrics.json",
+    "sha256": "9d490e622f8a1689a564bfa1161ef8f13a8b9c5532f292e35209bd21a49149a7"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/rf/seed_51/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/rf/seed_51/exp_800_metrics.json",
+    "sha256": "c1708d974620116db8765467b27333dfabecc371d60372d52d68b6070bd5ee3c"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_42/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_42/exp_1600_metrics.json",
+    "sha256": "d2f9ee60f36fc2ecece5d8b221e0827160f61d8b30c0ccfb6c654eb3de3417b6"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_42/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_42/exp_2400_metrics.json",
+    "sha256": "5ee4e48873189d324445c9809fd91fc53aefd6aa79c93bd64ae76abc5c7e3293"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_42/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_42/exp_3200_metrics.json",
+    "sha256": "7d8d633eca1860bd7579310bf88d57786267fe08f2afa6568e63cf0f25237148"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_42/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_42/exp_800_metrics.json",
+    "sha256": "6f4a706f3314806164af3a04859dda1e4842b57449007a001385a8d8f893bc48"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_43/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_43/exp_1600_metrics.json",
+    "sha256": "2c147347af89ad44230989790a1cd645148f680e8eaf78a3ae6c6f626b135ddc"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_43/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_43/exp_2400_metrics.json",
+    "sha256": "c974079a818496ff440d8b101151d314a8e695121a3896d56f00d58ea9b7171b"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_43/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_43/exp_3200_metrics.json",
+    "sha256": "524d0d0efb34516039cff23346658cd90612973ab76c43fd90e4ce7c88237f39"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_43/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_43/exp_800_metrics.json",
+    "sha256": "f54539bb582747df99074aecd8458b78ed79c4b92454a21fcd03bd5579398559"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_44/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_44/exp_1600_metrics.json",
+    "sha256": "99a53d361427cccd8e620f1abc9b6e9c5b5d9d5c4c58d0a5bf5755c825eba156"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_44/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_44/exp_2400_metrics.json",
+    "sha256": "c5e47e7437b6087c829e5dee7c7034059e56e3792bdf53f3c03ff61b21c03e40"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_44/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_44/exp_3200_metrics.json",
+    "sha256": "8ee001db37abc2796cd9bf1f69949b1cc55f5265b18feac0c41877e936c510b7"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_44/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_44/exp_800_metrics.json",
+    "sha256": "6f5559fdc003b8d53054b7e6dae5827687a6adda0aa517935e7b54feb8e99759"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_45/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_45/exp_1600_metrics.json",
+    "sha256": "19b27764c45d47478cb9cf6c37cde95d9929c7028efb9279149c9b85e85adf85"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_45/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_45/exp_2400_metrics.json",
+    "sha256": "ac024da3ac939f88c4e7fbe5ea4a72ff87e640134db03f9b593e0674cc1a41fd"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_45/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_45/exp_3200_metrics.json",
+    "sha256": "aa491e3a4ec41cf4864c939f14772466ec5d4217f7e4e11816a4b5b3f831435e"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_45/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_45/exp_800_metrics.json",
+    "sha256": "9e8d972ccba3e6ec442110c8f1ff908af3eaec8c44209efc2612860202a905fb"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_46/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_46/exp_1600_metrics.json",
+    "sha256": "958cf30d6dc118d276bd3aedc2044190a662e936289ffb39a65b5fa7d24d71b5"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_46/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_46/exp_2400_metrics.json",
+    "sha256": "b44f0b16c6de67d0c82ec72f38426d28baaa30faa73b33112923b8614f757cea"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_46/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_46/exp_3200_metrics.json",
+    "sha256": "3b8458e9687cfd4a35c6b1f04204ec242868ecbdd3a65972db6209469cc79661"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_46/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_46/exp_800_metrics.json",
+    "sha256": "a8a0e7b13e98df91ea8b1056441aff5f22d91ed0524712e612ce91814080f480"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_47/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_47/exp_1600_metrics.json",
+    "sha256": "b1af95fd7a912055c0e402011d282143d961df04f379a54731a8121b94a56442"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_47/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_47/exp_2400_metrics.json",
+    "sha256": "ae3189f08d3a2b151b8debf895937702ba6eaf0d1f617806de9b30c58a52c7b7"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_47/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_47/exp_3200_metrics.json",
+    "sha256": "b8e804b5d4535adc08854a3be5aaf290d4c35cd9cccff1f59bea8bc38248aaed"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_47/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_47/exp_800_metrics.json",
+    "sha256": "7ffc37c0adf69e817c7377132fa3faed0bbf7b148962b89de192b581c3ab17b6"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_48/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_48/exp_1600_metrics.json",
+    "sha256": "4f7cae90c48f5c817ee94688667e44ebb1f9faf3426327ba4003dbc414799c2a"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_48/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_48/exp_2400_metrics.json",
+    "sha256": "8de8af6607bbabe1c9caa9238eebaddba4dafc4dec1d99b652bfc3dd1f7bf837"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_48/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_48/exp_3200_metrics.json",
+    "sha256": "54a0fe5dd7e5d97981165e99157a22c4a55276788cdad1937c28ee0b4782da90"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_48/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_48/exp_800_metrics.json",
+    "sha256": "44b9f2c3269154e2154892c291d02f2ae862e11a816e1ea2a0910b60e9ef82cc"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_49/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_49/exp_1600_metrics.json",
+    "sha256": "e2e13d9bea22bbc94d61876b00ac7632e20e74048a28cd856dd100bd269bac3e"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_49/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_49/exp_2400_metrics.json",
+    "sha256": "93931bd36a57b817c801696e3b6e1f42c6f2fb3bf30c37c4e645468b669b508f"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_49/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_49/exp_3200_metrics.json",
+    "sha256": "724e3ee70d3819a3a7a60c57d3d276dd311187136da3975919938b1ba62bce51"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_49/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_49/exp_800_metrics.json",
+    "sha256": "cb497370f2c8eddc3fa427b0b7f94a4f689aebc73bfc75771c9c400ba83fceac"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_50/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_50/exp_1600_metrics.json",
+    "sha256": "c3d1e6c5c9b9994f8c551f54ae3ee835c533e31b6d72eda1b76d26013ce911f9"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_50/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_50/exp_2400_metrics.json",
+    "sha256": "de07fb8c49b2b6f86aef51481dfac56605972289aac80d50b7e8f6d013b8601e"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_50/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_50/exp_3200_metrics.json",
+    "sha256": "c77d6d051ae34df92f77873b2fc62814fd9b7704dbe26da22cd37328731adeb6"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_50/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_50/exp_800_metrics.json",
+    "sha256": "3aa802b82dc558dcbfb1be7775c92117427ddaf2859d99dcf27b8abcae9ddedd"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_51/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_51/exp_1600_metrics.json",
+    "sha256": "e2718559a629e5c39c092ce48977e20062c5429d9c5529f437298cad2da07e97"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_51/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_51/exp_2400_metrics.json",
+    "sha256": "98c4f447fe0fd63a017e1b0d0384b58d05c25d47b8dae96f3b5d55155d3c5f1b"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_51/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_51/exp_3200_metrics.json",
+    "sha256": "1f6825883a944d8726623a5683c23350634a777d6e4bf175b4de884dd45aa2bf"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/svr/seed_51/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/svr/seed_51/exp_800_metrics.json",
+    "sha256": "497a087190db9b7da5d7aee8184720cd8b37e5552be2d853926c0cf98b161a90"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_42/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_42/exp_1600_metrics.json",
+    "sha256": "1132f6a9fd650808ea8727bc78e4fc7e81551dc363a9326e27c0f12e8efdc3e0"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_42/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_42/exp_2400_metrics.json",
+    "sha256": "972f717777f1897ea2e6c802635038d43fc8d5bb02f77dc92bc54767b32757a9"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_42/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_42/exp_3200_metrics.json",
+    "sha256": "2b8c94b89f122fbfd75482ede8054d7c9b6e9140bb4b2a862a5326b7356ae1da"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_42/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_42/exp_800_metrics.json",
+    "sha256": "cd1563a7a5af6fef4c32b05d5da6f9137bbb88a5ac6468df8496225dcf4f4b0f"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_43/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_43/exp_1600_metrics.json",
+    "sha256": "ac769b55abcb83b0949e60550bda993f00ac70c5300b5eb5fb5df20d849e171b"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_43/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_43/exp_2400_metrics.json",
+    "sha256": "63d5ad50c7283d30dd6a0f279090213d2e469ee13b01dde9940af0b244e7ecc2"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_43/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_43/exp_3200_metrics.json",
+    "sha256": "34f8717e17cfec188c537846a5cb1ab9d89ac23ce1fd4b7b0eceb7a95223c55c"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_43/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_43/exp_800_metrics.json",
+    "sha256": "6fa1ae5302b3a540eaa9a842686daa1a22888473ab802d829cae908886f0c2cc"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_44/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_44/exp_1600_metrics.json",
+    "sha256": "a7f92e362fd3cd05a38bf7a6aa4768c03e1f899d30381fec260ada0ff29b4373"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_44/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_44/exp_2400_metrics.json",
+    "sha256": "ebaf615545d64203f697dbc3c028c459cb4b09c37b811a578d8ef81b6fed12d6"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_44/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_44/exp_3200_metrics.json",
+    "sha256": "c1a2b08ebdaa0f924920ae79881d39ecb1e05b07d03d7352ff4fc03f28203abc"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_44/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_44/exp_800_metrics.json",
+    "sha256": "0a64158f5dad6ccd6222c65c60c3c7ac5b0b003b23ba0d7bc5a296fab84e7a06"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_45/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_45/exp_1600_metrics.json",
+    "sha256": "3fac9b99dd5c44ebdea220f26d0811e01effccf094e6d1c41f6f595bf2ec54fa"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_45/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_45/exp_2400_metrics.json",
+    "sha256": "55a29863fac8cf704a07f129c16549f4e1f2daf843fbd4aac851eeee94bad08b"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_45/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_45/exp_3200_metrics.json",
+    "sha256": "6ad7ce224c2e29969332564a2d3e2f1349e0d117e1c48e6ff376c0ccccc3c9de"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_45/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_45/exp_800_metrics.json",
+    "sha256": "153246224e062eedda47190d265521c5b4158923dc0f1e451a43454ae827faf4"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_46/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_46/exp_1600_metrics.json",
+    "sha256": "eaf5d030251215f811fa1f050bceeabca6b998141495f62a88c64906c81154f2"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_46/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_46/exp_2400_metrics.json",
+    "sha256": "deb9caa88e912a68482ccc85fb3245ab79662ea807489443a74fe6b0b5a05a60"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_46/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_46/exp_3200_metrics.json",
+    "sha256": "088d470345e681414b74bdd638864605da6e05d18f13931db69c2b02a2db81de"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_46/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_46/exp_800_metrics.json",
+    "sha256": "ad206a969cb872b24b997e449969b4c05f32137e92b0e07f1855f0b4e49ad5d6"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_47/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_47/exp_1600_metrics.json",
+    "sha256": "59b6d492160f7b20e2cfddf4c406c5f0c3fc4a7a773730322361255c0d2adc2b"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_47/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_47/exp_2400_metrics.json",
+    "sha256": "f6c50d583a48a896183dc445828c4d3de340816b7083e411afba812f15145aab"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_47/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_47/exp_3200_metrics.json",
+    "sha256": "4375682f6bf868cde9b2bf81b0fafe1602735db81e99f894c03eabfd17adb921"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_47/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_47/exp_800_metrics.json",
+    "sha256": "c2928a0cbaa433f3f995c44569faa161fe480e8c7e226445defd898ac28dbe0a"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_48/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_48/exp_1600_metrics.json",
+    "sha256": "fd2a20c647c58950f440492d01272ef3bf27732fe600a5b840373eeb6057f196"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_48/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_48/exp_2400_metrics.json",
+    "sha256": "186757b8f2d83bc269d8d7cdb3a7aac5b2a532dda2087982bd92b2b0a84b3a2a"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_48/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_48/exp_3200_metrics.json",
+    "sha256": "39c98c19f5562970f0be036c82ed2754850e5298334f416c62f0e72c5403daed"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_48/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_48/exp_800_metrics.json",
+    "sha256": "664c965aeaf0b2711520a3e6df6fcd4b86765920226fd63fe570e487ffc0f256"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_49/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_49/exp_1600_metrics.json",
+    "sha256": "edbcf89e307a3ab3df264c1f89bf166515b4b3b5c475da236ae1ff01eb580eec"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_49/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_49/exp_2400_metrics.json",
+    "sha256": "8c9820b7907446c5602ad006c92f860b01fa7bf7cc7a257f1edada9c73f475ea"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_49/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_49/exp_3200_metrics.json",
+    "sha256": "6f206ee699862c2d1233d41bad4c0620308ffe479cf7e30e1a514b63819f3aa2"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_49/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_49/exp_800_metrics.json",
+    "sha256": "62c8d23d4b15f2d27d109d4d7459c1b9ec082e36284239e1c330c4ede7def8fe"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_50/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_50/exp_1600_metrics.json",
+    "sha256": "1dc932848e755a2e59a0d0b2021ff8b688f4cd886df941262a66849ff70e7cf7"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_50/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_50/exp_2400_metrics.json",
+    "sha256": "171355d05e42e809c46bc9f0e0cffaab7cf00db42b4e14ffd5740f450ab95707"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_50/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_50/exp_3200_metrics.json",
+    "sha256": "837661a7706fc6d31f3a6a3d0025adeb41b6fb8569b96a538d5c94f10bf3b8a0"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_50/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_50/exp_800_metrics.json",
+    "sha256": "bc53616558af8bcaab7bcfa1843ca96a8b8dc2938dee37e613e80db621610c63"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_51/exp_1600_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_51/exp_1600_metrics.json",
+    "sha256": "835d372961f37ce6fde01a68be7f9d65f536225831c0f3a844ab4a4f2f22eadd"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_51/exp_2400_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_51/exp_2400_metrics.json",
+    "sha256": "6d9fed861a8cc0a1b10e1a88663eac19fec25280e725e21a7f2c45df6a63ea70"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_51/exp_3200_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_51/exp_3200_metrics.json",
+    "sha256": "5e4b41185ff9a6e80b953c1170704e7028b3e6f3e7c2e449ae1d9d5ddaa8cfd7"
+  },
+  {
+    "source": "figures_revision/data/classical_results/run_20260326_083044/xgboost/seed_51/exp_800_metrics.json",
+    "destination": "results/reference/classical/metrics/xgboost/seed_51/exp_800_metrics.json",
+    "sha256": "f3b654fb0399511a9d2bbaf9958cfaf6e470e76430ca1aff9faea47595c53558"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_42/exp_1600_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_42/exp_1600_metrics.json",
+    "sha256": "d81a4f3d1c688c9e0651c5875cb74cf546a2a310c092377a812b1fd30812b660"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_42/exp_1600_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_42/exp_1600_noise_metrics.json",
+    "sha256": "ff78bd14f5d0660c531cce08963f2df738527fcc6b0daab0cea7323749787625"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_42/exp_2400_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_42/exp_2400_metrics.json",
+    "sha256": "7c8b1d083135680cb0384c9ceb024e8bec65fffbd4e9460219027da6896b1c58"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_42/exp_2400_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_42/exp_2400_noise_metrics.json",
+    "sha256": "e3b077f9920194215153e4ce8c45e9e15eaaee78efeb91b67496d87403df812b"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_42/exp_3200_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_42/exp_3200_metrics.json",
+    "sha256": "d33717ebfd7d6c7e89db070a4fcc2850bf81cb19bd532876123b4efb91887631"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_42/exp_3200_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_42/exp_3200_noise_metrics.json",
+    "sha256": "93977a416d52e5c72747b27f197c50772bb9a7dd70b7af336c596768481c8467"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_42/exp_800_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_42/exp_800_metrics.json",
+    "sha256": "8c2ac639b7ed8978e318ac2e14fb71840c531e6e67b68ff8e26a0d26e4111845"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_42/exp_800_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_42/exp_800_noise_metrics.json",
+    "sha256": "e0b61ffd73a30c5806099fc879a5301a90d6f16c9cf3c66846c138727ecbb22d"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_43/exp_1600_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_43/exp_1600_metrics.json",
+    "sha256": "9c29e083d0e85665f93a93545584ec5330e75bb55c8da59c92472313d17be9fe"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_43/exp_1600_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_43/exp_1600_noise_metrics.json",
+    "sha256": "cbd20d24ff6b759d7a6b46d63ff2a31fe7f927b3c44e417e050203c539eda542"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_43/exp_2400_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_43/exp_2400_metrics.json",
+    "sha256": "fa752213e24d0f9258f5f875808b44e5a659737c2eb5ca907e8f9566dfa591cb"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_43/exp_2400_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_43/exp_2400_noise_metrics.json",
+    "sha256": "781de3037d63627b3a8f23f6d6dc5481eacffccc6851b18495f4ec7b2e008361"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_43/exp_3200_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_43/exp_3200_metrics.json",
+    "sha256": "162a46c8dced2b92e77c4a4140fad21e808a63663e59c0b8e7d63e48a0957914"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_43/exp_3200_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_43/exp_3200_noise_metrics.json",
+    "sha256": "131609a92b1b42dfedacc9ab3337e82ed82f74921d9061025d514bd410b75146"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_43/exp_800_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_43/exp_800_metrics.json",
+    "sha256": "410688b4da239cf6d987a1dc1d2f3ffb05bfb2a3c1cf4b0d9cc27f9512421b42"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_43/exp_800_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_43/exp_800_noise_metrics.json",
+    "sha256": "48fc3efc589b7caca056429067221dd193ede82a91948bf05f451f13ae8768c5"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_44/exp_1600_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_44/exp_1600_metrics.json",
+    "sha256": "6f93488fe7351ac6916e04801438057d6ca326c9c29c810b2b2fd46a4574c412"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_44/exp_1600_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_44/exp_1600_noise_metrics.json",
+    "sha256": "7a07b8ff197f94237d50a7fdc3a5ceb52e7538cfeca5675126311ef1b60148b0"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_44/exp_2400_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_44/exp_2400_metrics.json",
+    "sha256": "79efa8b5761ef85888f39e1cb22af3a1d9059e02dcd57e0e733f328aaa2b5317"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_44/exp_2400_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_44/exp_2400_noise_metrics.json",
+    "sha256": "b3b47914b6cf3685d1f978dba4dc8f9bc52b1a6d18aede4ed8ea1403b1d09b02"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_44/exp_3200_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_44/exp_3200_metrics.json",
+    "sha256": "a73e6c61e1bbb2a03f4afdc13a1ea90dfc867db1f54dc55801306cb256cb96fa"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_44/exp_3200_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_44/exp_3200_noise_metrics.json",
+    "sha256": "7575b91ed42677ee712f16744a714694baca3af369551efdc1c80a80ba0e4c2f"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_44/exp_800_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_44/exp_800_metrics.json",
+    "sha256": "4fb731b339546b9042fde01263b045c21242e834cbfd2abe11fa16278bdd82d0"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_44/exp_800_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_44/exp_800_noise_metrics.json",
+    "sha256": "be556f4c5d3f3d85acf71d1809e2560d1a69f3cbec827156a29ba7538cc05ced"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_45/exp_1600_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_45/exp_1600_metrics.json",
+    "sha256": "a2886ee44ff22edccb957530d036ec42f17fad67de298b81783105175e76ac20"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_45/exp_1600_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_45/exp_1600_noise_metrics.json",
+    "sha256": "14130d54ff72a9777ce948d571e5c7e4f351a6dfedc26a078b3a5205a083f7f7"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_45/exp_2400_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_45/exp_2400_metrics.json",
+    "sha256": "cd7c80bc6ae38213584d577cb5b2dceb4cdca5ef60cac59e78c681da50aca4a4"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_45/exp_2400_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_45/exp_2400_noise_metrics.json",
+    "sha256": "da08464e91e2e400c8c583730f88039556c49fa10f04a055c76bf72f531bcd29"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_45/exp_3200_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_45/exp_3200_metrics.json",
+    "sha256": "58f9fc836a2cde6014b48630250108fb758dbd827f2a2cd80353820dff344cb4"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_45/exp_3200_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_45/exp_3200_noise_metrics.json",
+    "sha256": "c2259eff902bc2c9398d19d5c32cb0dc250856e57f074cfca8d9d04d10e3490a"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_45/exp_800_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_45/exp_800_metrics.json",
+    "sha256": "deef724dbad60fd6a6f56cdcf756d5e4c3b28d33cf55ca4b9d86db76e0aebc7b"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_45/exp_800_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_45/exp_800_noise_metrics.json",
+    "sha256": "5637caa4eb0d360af643dd42c9a764d61395e157f804fd6224c4a95ad24635ce"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_46/exp_1600_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_46/exp_1600_metrics.json",
+    "sha256": "9592ecfadfb75789217d2866e1d29cf12e8656381e6c6257ecec28c12a32ecbf"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_46/exp_1600_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_46/exp_1600_noise_metrics.json",
+    "sha256": "50228e300723d468fcccea1cfa20f386faf76fc432eba0ce217827c9bf49b72b"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_46/exp_2400_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_46/exp_2400_metrics.json",
+    "sha256": "4f11749f6a51f53501c9c984ca4455908d5370b4ce029b1d978752e449793cc2"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_46/exp_2400_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_46/exp_2400_noise_metrics.json",
+    "sha256": "3b375d8fdbf1c3c21e608dbb477489418d9a7f07b94969b1613d39421daa9334"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_46/exp_3200_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_46/exp_3200_metrics.json",
+    "sha256": "724e89ba6b0eda260f7907230f11215c27c293a151dbd7bfab7ae3ea030f36a5"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_46/exp_3200_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_46/exp_3200_noise_metrics.json",
+    "sha256": "31785991f7e70192a9f3e8db5da109222ee2de45db0054fe975247f7a59d463a"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_46/exp_800_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_46/exp_800_metrics.json",
+    "sha256": "1f6c1a0623fe904071ad56dae36686fb5ba9018875dcc4526eee3596560164f0"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_46/exp_800_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_46/exp_800_noise_metrics.json",
+    "sha256": "78cad8aeb422d5f3e37e4a6e9f2f8a364aea15b9a19ddf974d638325aa442607"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_47/exp_1600_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_47/exp_1600_metrics.json",
+    "sha256": "d397c8ee18314bb75866385aef06f19744d5fe03e79e03929f1f1c75c8f1af3b"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_47/exp_1600_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_47/exp_1600_noise_metrics.json",
+    "sha256": "2f7158454d8dc3eca370f2d77d66471b34512fb5b2c395f4628f846fd0a14202"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_47/exp_2400_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_47/exp_2400_metrics.json",
+    "sha256": "895919355af33e0f71292018ce6061c06fb2b283c828b96cb353bbb9440e62c6"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_47/exp_2400_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_47/exp_2400_noise_metrics.json",
+    "sha256": "c9fb6d5f405bae13ed6a38c017c513a1a78d75f7d38d17a6af7d876812e9f02e"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_47/exp_3200_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_47/exp_3200_metrics.json",
+    "sha256": "87b1204ec1c4acfe580303c18b2dea26c57ccd3c1e3ec1d838b899c19f4d1c31"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_47/exp_3200_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_47/exp_3200_noise_metrics.json",
+    "sha256": "b0fa97c0189aa85c6cee078669f461bd15d5d71f367160cfc0bd72ffdcd36990"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_47/exp_800_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_47/exp_800_metrics.json",
+    "sha256": "3d5053ce948615bce75747cdb8d86d736db09e94023f9f5c74a867ca6654f51f"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_47/exp_800_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_47/exp_800_noise_metrics.json",
+    "sha256": "e164ea60e555ea7f43e3c75e1993faf3a7b683b0752c3e5047598b8949d47f9a"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_48/exp_1600_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_48/exp_1600_metrics.json",
+    "sha256": "b8702663d506f85d38948a5243fd0244533db5d4f52c4f17fa139f7d4d0b8e54"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_48/exp_1600_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_48/exp_1600_noise_metrics.json",
+    "sha256": "8df6ebbad7a0b1b71313e59558b1463dffc91ac2dd43f6b98f080e15c6224de2"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_48/exp_2400_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_48/exp_2400_metrics.json",
+    "sha256": "8e64260dfc3c23b7359b105c722506f39341a63e5394b4192c6b883837ec30ef"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_48/exp_2400_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_48/exp_2400_noise_metrics.json",
+    "sha256": "2831da1e17857e916d05cc8f51fad5ab493095ca990c80d4324e3917364dd388"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_48/exp_3200_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_48/exp_3200_metrics.json",
+    "sha256": "4112f9b7d0b8f1780241e749771e4001497418f93e4268ea1a3fb4f4d1fbaa92"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_48/exp_3200_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_48/exp_3200_noise_metrics.json",
+    "sha256": "fa72f562185bffdca5ad29014263604894dff058dde63366b2f192bf5a183995"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_48/exp_800_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_48/exp_800_metrics.json",
+    "sha256": "30d57f18b042edbbeac942951d14dc897dc5b6af36e444c3281fe9b414de27e2"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_48/exp_800_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_48/exp_800_noise_metrics.json",
+    "sha256": "92032046b987afe0c66d0b676f4cbd6d642abc5c061c6d9022ef07116cfa3b8a"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_49/exp_1600_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_49/exp_1600_metrics.json",
+    "sha256": "11561f4604a31837a06e044a65dc7bb5313c0658cf8cc420301c5f5eccdb129c"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_49/exp_1600_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_49/exp_1600_noise_metrics.json",
+    "sha256": "fbcba067eae403e2f186499e9af26817f6cfd148e53df6637a20285ffc7bcd14"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_49/exp_2400_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_49/exp_2400_metrics.json",
+    "sha256": "7a31634cd5f5339f0a1ca0fd3dbd3ddd33cab6797f8c025b5c49d338bc2985c5"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_49/exp_2400_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_49/exp_2400_noise_metrics.json",
+    "sha256": "87104a208a1fc9b58e0aeb7c53dc9fa3a5ad48cd136b31ee2be6ca48ef31a438"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_49/exp_3200_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_49/exp_3200_metrics.json",
+    "sha256": "360ae33d2b656e04b68a0da4d8c4b4dcfe638f3950dfdc1b8708dd12e93aa90a"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_49/exp_3200_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_49/exp_3200_noise_metrics.json",
+    "sha256": "fe66859a6acb5cd7f92d72b708b6eb22b1e61b3640d598777262186ccc60bbe8"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_49/exp_800_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_49/exp_800_metrics.json",
+    "sha256": "69b99ddee3ab5d4559f250e71cf81685a9aed376e9e242afb7f11dce614bf8cc"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_49/exp_800_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_49/exp_800_noise_metrics.json",
+    "sha256": "8ed58c07d7ad0a1dae942e9120a9b5758bf3cd7b81d062d176c1aa903e6f20e9"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_50/exp_1600_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_50/exp_1600_metrics.json",
+    "sha256": "8225417dcd00f97e10d22dae50271324933f069899eace59979693b2421fc577"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_50/exp_1600_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_50/exp_1600_noise_metrics.json",
+    "sha256": "06295aa33130e24b840d25d3e78442376591ae5904681a94c53c45beb7646206"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_50/exp_2400_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_50/exp_2400_metrics.json",
+    "sha256": "8a2d76afcfe1ede71b457a31e803bb5be5ac9dda9b490d99900d7628776cb5c8"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_50/exp_2400_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_50/exp_2400_noise_metrics.json",
+    "sha256": "77a4a8f359d7089a184e07c22d39ed5ed74832c9a0d52ea16da25f3f74bfcc33"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_50/exp_3200_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_50/exp_3200_metrics.json",
+    "sha256": "e3003163cddff56d3847d0e12b5667f5de58bf3067082ae8ac3ffcefbcf21cde"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_50/exp_3200_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_50/exp_3200_noise_metrics.json",
+    "sha256": "f79ba608b86a03b47a93be32b30bb56ee1055ec0014a42489e35c076cf2aaf3c"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_50/exp_800_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_50/exp_800_metrics.json",
+    "sha256": "4387f64e51ce457f34b148be3e5585947e058621df1c6fe27ed02624bcdb326a"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_50/exp_800_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_50/exp_800_noise_metrics.json",
+    "sha256": "f15e0f624ee4edcce882061eaaa29b51be7c1c2a30cb7259e0635cd616980f9b"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_51/exp_1600_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_51/exp_1600_metrics.json",
+    "sha256": "385f7f6e708365faedcf6c800deff7794dbc7d9d3618ea1562864bb27f9d5efc"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_51/exp_1600_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_51/exp_1600_noise_metrics.json",
+    "sha256": "0d485826dc49eaf0651b49769c8f2432b3d82f85256d58f338c245dcf8f6ef83"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_51/exp_2400_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_51/exp_2400_metrics.json",
+    "sha256": "67e7e3ad3a4447119c4f6bc1d515578894b5f699f65fd421e9248075468dda8a"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_51/exp_2400_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_51/exp_2400_noise_metrics.json",
+    "sha256": "29337f7392f0f90f136944774fa5b4401cf6351ff7119203d194a1c84821b708"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_51/exp_3200_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_51/exp_3200_metrics.json",
+    "sha256": "3af9356d931f86f64a84f6eed805fa2e8dd606bbcb342a38d4dbc2b32a87153d"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_51/exp_3200_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_51/exp_3200_noise_metrics.json",
+    "sha256": "fa9ca6f67757509c0228fbe7cd664b5d0b75b6ff60ecb99c9fe0518e63353e7b"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_51/exp_800_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_51/exp_800_metrics.json",
+    "sha256": "919110e54e2b710da0953351d36826544cf4d2f73a197fae5ab96cd0bbf324c7"
+  },
+  {
+    "source": "figures_revision/data/qnn_results/seed_51/exp_800_noise_metrics.json",
+    "destination": "results/reference/qnn/metrics/seed_51/exp_800_noise_metrics.json",
+    "sha256": "bf818efef14681b8bb9489956f46eaae91f16d6dbd0f51be0208bd9a53d65b56"
+  },
+  {
+    "source": "figures_revision/fig1_circuit.py",
+    "destination": "figures/fig1_circuit.py",
+    "sha256": "52fa9910954c06c31c3f72183bf35c625155e8c3526bb644084bb568ba9dd8c8"
+  },
+  {
+    "source": "figures_revision/fig2_saturation.py",
+    "destination": "figures/fig2_saturation.py",
+    "sha256": "06216bc8a2356fda9bfb0f78c16cff6c68e54f84afb65ca2251d28d152866762"
+  },
+  {
+    "source": "figures_revision/fig3_gap.py",
+    "destination": "figures/fig3_gap.py",
+    "sha256": "a744401c30d144cfceab4c319cbafa8f0e1f89be063a3cf9f672399f4afa0570"
+  },
+  {
+    "source": "figures_revision/fig4_scatter.py",
+    "destination": "figures/fig4_scatter.py",
+    "sha256": "73b7e315f7b306754723ec0467afad02c58dafb00b94f6020dd4059e44a216e4"
+  },
+  {
+    "source": "figures_revision/fig5_noise.py",
+    "destination": "figures/fig5_noise.py",
+    "sha256": "6bb58591595c99e9e8c82c268553e0b1081a82b716337e1175d5960bd7d8b627"
+  },
+  {
+    "source": "figures_revision/load_data.py",
+    "destination": "figures/load_data.py",
+    "sha256": "3d2e2c1b1fb86daff8ed7b01f13c251a525eab52fbb1805438d030434318afc1"
+  },
+  {
+    "source": "figures_revision/make_all.py",
+    "destination": "figures/make_all.py",
+    "sha256": "8ecfe0c6bd67efaa0057bb9e966a57e8019cb527aa6d601ede2968410ff313ab"
+  },
+  {
+    "source": "figures_revision/style.py",
+    "destination": "figures/style.py",
+    "sha256": "d1c3ca4d600911a55164f639ff5e6262c5a70a17c2aaaab2970725304a741276"
+  },
+  {
+    "source": "qnn_experiments/qnn_structure_selection/aggregated/run_20260624_132249/selection_decision.txt",
+    "destination": "results/reference/selection/selection_decision.txt",
+    "sha256": "2f4c7c0550f5bfa54302dd6ed53173e730a3b308b991f44dff15132527d7c9c4"
+  },
+  {
+    "source": "qnn_experiments/qnn_structure_selection/aggregated/run_20260624_132249/selection_per_seed.csv",
+    "destination": "results/reference/selection/selection_per_seed.csv",
+    "sha256": "ebee9dcfc762643b5b14eea0097a107e6ec793bc5982eb558f3b302676d76517"
+  },
+  {
+    "source": "qnn_experiments/qnn_structure_selection/aggregated/run_20260624_132249/selection_summary.csv",
+    "destination": "results/reference/selection/selection_summary.csv",
+    "sha256": "97cf6102b2dc1b11130310e78d2acdf9e9c46c1e7291e0ace82bb4e8a4873fc8"
+  },
+  {
+    "source": "qnn_experiments/qnn_capacity_ablation/aggregated/run_20260628_134952/capacity_per_seed.csv",
+    "destination": "results/reference/capacity/capacity_per_seed.csv",
+    "sha256": "fe9b9083ab9169a9dda46269b313bfc68b39696af49428c574b6e4c28c066825"
+  },
+  {
+    "source": "qnn_experiments/qnn_capacity_ablation/aggregated/run_20260628_134952/capacity_report.txt",
+    "destination": "results/reference/capacity/capacity_report.txt",
+    "sha256": "94b08d0e62af44b41f5719f36604ffd8ae3f0106e7c8382e85d1ff2e0ceb4b2c"
+  },
+  {
+    "source": "qnn_experiments/qnn_capacity_ablation/aggregated/run_20260628_134952/capacity_summary.csv",
+    "destination": "results/reference/capacity/capacity_summary.csv",
+    "sha256": "c6b2365245e24654d7af60de1be1aafde4eaae940ef4248ab867f8570c04012a"
+  },
+  {
+    "source": "qnn_experiments/qnn_noise_aware_training/aggregated/run_20260907_120412/noise_aware_per_seed.csv",
+    "destination": "results/reference/noise_aware/noise_aware_per_seed.csv",
+    "sha256": "796e39d733abdbc49b7a44bc2ee6e48ab6c3e9a6bc8d5468028e109525b1af20"
+  },
+  {
+    "source": "qnn_experiments/qnn_noise_aware_training/aggregated/run_20260907_120412/noise_aware_report.txt",
+    "destination": "results/reference/noise_aware/noise_aware_report.txt",
+    "sha256": "0411afd2eed0077a042d2749da88ecb02163dc75fee26c187689dd6365c4d0a7"
+  },
+  {
+    "source": "qnn_experiments/qnn_noise_aware_training/aggregated/run_20260907_120412/noise_aware_summary.csv",
+    "destination": "results/reference/noise_aware/noise_aware_summary.csv",
+    "sha256": "3e23f9674012c9e1d0c0c5b359304ca2f011fea13fe65a9064f52bb2dce8264f"
+  }
+]

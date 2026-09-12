@@ -1,0 +1,45 @@
+========================================================================
+QNN STRUCTURE SELECTION — STABILITY-AWARE DECISION
+========================================================================
+
+Decision basis: CROSS-VALIDATION ONLY. The held-out test set was NOT consulted
+to make this decision; test_r2 / test_gap are reported for transparency and
+cross-environment reproduction checking only.
+
+Leaders:
+  - Accuracy leader (max mean cv_val_r2): full (0.9022)
+  - Smallest mean cv_gap:                 full (0.0037)
+  - Smallest run-to-run sigma:            full (0.0138)
+
+Pooled standard-deviation yardsticks (RMS of per-config across-seed SDs):
+  - cv_gap pooled SD:               0.0027
+  - run-to-run sigma pooled SD:     0.0141
+
+A config passes a constraint when its distance from the best value is within
+one pooled SD. Per-config evaluation, ordered by mean cv_val_r2 (descending):
+
+  [1] full
+        mean cv_val_r2      = 0.9022
+        mean cv_gap         = 0.0037  (distance to smallest = 0.0000; <= 0.0027? YES)
+        run-to-run sigma    = 0.0138  (distance to smallest = 0.0000; <= 0.0141? YES)
+        satisfies BOTH stability constraints? YES
+
+  [2] reverse_linear
+        mean cv_val_r2      = 0.9022
+        mean cv_gap         = 0.0037  (distance to smallest = 0.0000; <= 0.0027? YES)
+        run-to-run sigma    = 0.0138  (distance to smallest = 0.0000; <= 0.0141? YES)
+        satisfies BOTH stability constraints? YES
+
+  [3] circular
+        mean cv_val_r2      = 0.8996
+        mean cv_gap         = 0.0037  (distance to smallest = 0.0001; <= 0.0027? YES)
+        run-to-run sigma    = 0.0147  (distance to smallest = 0.0009; <= 0.0141? YES)
+        satisfies BOTH stability constraints? YES
+
+------------------------------------------------------------------------
+RECOMMENDED CONFIG: full
+Rationale: the accuracy leader also satisfies both stability constraints, so it wins outright.
+  mean cv_val_r2 = 0.9022 | mean cv_gap = 0.0037 | run-to-run sigma = 0.0138
+  (transparency) mean test_r2 = 0.9034
+Decision used cross-validation only; the test set was not consulted.
+========================================================================

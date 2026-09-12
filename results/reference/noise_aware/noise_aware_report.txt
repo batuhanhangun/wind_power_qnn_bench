@@ -1,0 +1,53 @@
+========================================================================================
+Q5 - noise-aware training vs freeze-and-evaluate vs calibrated control (reverse_linear, N=800)
+Run ID: 20260907_120412
+========================================================================================
+
+[1] Noise-model fidelity gate - freeze-eval means vs published reverse_linear table
+
+          p |  measured | published |     |d| | result
+    ----------------------------------------------------
+      0.001 |     0.893 |     0.893 |   0.000 |   PASS
+      0.005 |     0.814 |     0.814 |   0.000 |   PASS
+       0.01 |     0.659 |     0.659 |   0.000 |   PASS
+       0.02 |     0.299 |     0.299 |   0.000 |   PASS
+
+    Fidelity gate: PASS (tol 0.01) - noise injection matches the published reverse_linear table.
+
+[2] Head-to-head: test R2 at matched noise levels (mean over seeds)
+
+          p | freeze_eval |  calibrated | noise_aware |  d(NA-FE) | d(NA-cal) |  W p NA-FE | W p NA-cal | n
+    ------------------------------------------------------------------------------------------------------------
+      0.001 |      0.8934 |      0.9114 |      0.8956 |   +0.0022 |   -0.0158 |     0.0645 |     0.0020 | 10
+      0.005 |      0.8139 |      0.9112 |      0.8522 |   +0.0382 |   -0.0591 |     0.0020 |     0.0020 | 10
+       0.01 |      0.6594 |      0.9108 |      0.7723 |   +0.1129 |   -0.1385 |     0.0020 |     0.0020 | 10
+       0.02 |      0.2990 |      0.9092 |      0.5474 |   +0.2484 |   -0.3618 |     0.0020 |     0.0020 | 10
+
+    d(NA-FE)  = noise_aware - freeze_eval  (paper's protocol comparison)
+    d(NA-cal) = noise_aware - calibrated   (vs the cheap rescale control)
+    Paired two-sided Wilcoxon over the seeds; alpha=0.05. Positive delta => noise-aware better.
+
+[3] Q5 verdict
+    Operational envelope (p <= 0.005):
+        p=0.001: NA-vs-FE  delta=+0.0022 (Wilcoxon p=0.0645) n.s.   |   NA-vs-CAL delta=-0.0158 (Wilcoxon p=0.0020) n.s.
+        p=0.005: NA-vs-FE  delta=+0.0382 (Wilcoxon p=0.0020) WINS   |   NA-vs-CAL delta=-0.0591 (Wilcoxon p=0.0020) n.s.
+    Envelope edge (p = 0.01):
+        p=0.01: NA-vs-FE  delta=+0.1129 (Wilcoxon p=0.0020) WINS   |   NA-vs-CAL delta=-0.1385 (Wilcoxon p=0.0020) n.s.
+    Stress level (p = 0.02):
+        p=0.02: NA-vs-FE  delta=+0.2484 (Wilcoxon p=0.0020) WINS   |   NA-vs-CAL delta=-0.3618 (Wilcoxon p=0.0020) n.s.
+
+    PART (i) - does noise-aware beat plain freeze-and-evaluate?
+      YES at one or more levels (significant test-R2 gain over freeze_eval).
+
+    PART (ii) - does noise-aware STILL beat the calibrated control?
+      NO - a single linear rescale of the frozen model's noisy outputs captures
+      the gain; noise-aware training adds nothing beyond it.
+
+    RECOMMENDATION:
+      CALIBRATE THE OUTPUT - noise-aware beats freeze_eval, but NOT the calibrated
+      baseline: the apparent gain is merely a global rescale correcting the
+      deterministic depolarizing contraction, obtainable WITHOUT retraining.
+
+[4] Correctness gate - noise-free N=800 mean test R2
+    measured : 0.9034   expected : ~0.903   |d| : 0.0004   -> PASS (tol 0.01)
+========================================================================================

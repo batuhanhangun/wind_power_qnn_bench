@@ -1,0 +1,26 @@
+{
+  "model": "rf",
+  "train_size": 3200,
+  "seed": 44,
+  "train_r2": 0.9783913734227172,
+  "train_mse": 10974.708562277905,
+  "train_rmse": 104.76024323319369,
+  "train_mae": 36.434847384441206,
+  "test_r2": 0.9664874847857474,
+  "test_mse": 17646.76410836687,
+  "test_rmse": 132.84112355880941,
+  "test_mae": 53.14372152971886,
+  "cv_mean_r2": 0.9483177543383878,
+  "cv_std_r2": 0.010929871188148683,
+  "cv_mean_rmse": 160.79512176750964,
+  "cv_std_rmse": 17.99850169929994,
+  "cv_mean_mae": 57.767192921448995,
+  "cv_std_mae": 2.7871515615054907,
+  "best_params": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 2,
+    "model__min_samples_split": 5,
+    "model__n_estimators": 200
+  },
+  "wall_time_seconds": 2.8546667098999023
+}

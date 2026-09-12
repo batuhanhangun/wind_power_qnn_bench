@@ -1,0 +1,49 @@
+======================================================================
+REPRODUCTION GATE — rerun vs reference
+======================================================================
+Reference: reference\ann_reg_classical_per_seed.csv
+Tolerance: abs diff <= 1e-06 on test_r2 and train_r2
+
+  seed=42 size=800: MATCH (test_r2 diff=0.00e+00, train_r2 diff=0.00e+00)
+  seed=43 size=800: MATCH (test_r2 diff=1.11e-16, train_r2 diff=1.11e-16)
+  seed=44 size=800: MATCH (test_r2 diff=1.11e-16, train_r2 diff=0.00e+00)
+  seed=45 size=800: MATCH (test_r2 diff=0.00e+00, train_r2 diff=1.11e-16)
+  seed=46 size=800: MATCH (test_r2 diff=0.00e+00, train_r2 diff=0.00e+00)
+  seed=47 size=800: MATCH (test_r2 diff=1.11e-16, train_r2 diff=1.11e-16)
+  seed=48 size=800: MATCH (test_r2 diff=1.11e-16, train_r2 diff=0.00e+00)
+  seed=49 size=800: MATCH (test_r2 diff=0.00e+00, train_r2 diff=1.11e-16)
+  seed=50 size=800: MATCH (test_r2 diff=1.11e-16, train_r2 diff=0.00e+00)
+  seed=51 size=800: MATCH (test_r2 diff=0.00e+00, train_r2 diff=0.00e+00)
+  seed=42 size=1600: MATCH (test_r2 diff=0.00e+00, train_r2 diff=2.22e-16)
+  seed=43 size=1600: MATCH (test_r2 diff=1.11e-16, train_r2 diff=0.00e+00)
+  seed=44 size=1600: MATCH (test_r2 diff=1.11e-16, train_r2 diff=0.00e+00)
+  seed=45 size=1600: MATCH (test_r2 diff=0.00e+00, train_r2 diff=0.00e+00)
+  seed=46 size=1600: MATCH (test_r2 diff=1.11e-16, train_r2 diff=0.00e+00)
+  seed=47 size=1600: MATCH (test_r2 diff=0.00e+00, train_r2 diff=1.11e-16)
+  seed=48 size=1600: MATCH (test_r2 diff=1.11e-16, train_r2 diff=1.11e-16)
+  seed=49 size=1600: MATCH (test_r2 diff=1.11e-16, train_r2 diff=1.11e-16)
+  seed=50 size=1600: MATCH (test_r2 diff=0.00e+00, train_r2 diff=0.00e+00)
+  seed=51 size=1600: MATCH (test_r2 diff=2.22e-16, train_r2 diff=1.11e-16)
+  seed=42 size=2400: MATCH (test_r2 diff=1.11e-16, train_r2 diff=1.11e-16)
+  seed=43 size=2400: MATCH (test_r2 diff=0.00e+00, train_r2 diff=0.00e+00)
+  seed=44 size=2400: MATCH (test_r2 diff=1.11e-16, train_r2 diff=0.00e+00)
+  seed=45 size=2400: MATCH (test_r2 diff=1.11e-16, train_r2 diff=1.11e-16)
+  seed=46 size=2400: MATCH (test_r2 diff=0.00e+00, train_r2 diff=1.11e-16)
+  seed=47 size=2400: MATCH (test_r2 diff=1.11e-16, train_r2 diff=0.00e+00)
+  seed=48 size=2400: MATCH (test_r2 diff=0.00e+00, train_r2 diff=1.11e-16)
+  seed=49 size=2400: MATCH (test_r2 diff=1.11e-16, train_r2 diff=0.00e+00)
+  seed=50 size=2400: MATCH (test_r2 diff=1.11e-16, train_r2 diff=0.00e+00)
+  seed=51 size=2400: MATCH (test_r2 diff=1.11e-16, train_r2 diff=0.00e+00)
+  seed=42 size=3200: MATCH (test_r2 diff=1.11e-16, train_r2 diff=0.00e+00)
+  seed=43 size=3200: MATCH (test_r2 diff=0.00e+00, train_r2 diff=1.11e-16)
+  seed=44 size=3200: MATCH (test_r2 diff=1.11e-16, train_r2 diff=1.11e-16)
+  seed=45 size=3200: MATCH (test_r2 diff=1.11e-16, train_r2 diff=0.00e+00)
+  seed=46 size=3200: MATCH (test_r2 diff=2.22e-16, train_r2 diff=2.22e-16)
+  seed=47 size=3200: MATCH (test_r2 diff=0.00e+00, train_r2 diff=0.00e+00)
+  seed=48 size=3200: MATCH (test_r2 diff=0.00e+00, train_r2 diff=1.11e-16)
+  seed=49 size=3200: MATCH (test_r2 diff=0.00e+00, train_r2 diff=0.00e+00)
+  seed=50 size=3200: MATCH (test_r2 diff=0.00e+00, train_r2 diff=0.00e+00)
+  seed=51 size=3200: MATCH (test_r2 diff=1.11e-16, train_r2 diff=1.11e-16)
+
+All 40/40 rows match within 1e-06.
+REPRODUCTION: EXACT

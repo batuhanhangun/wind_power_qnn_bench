@@ -1,0 +1,26 @@
+{
+  "model": "ann",
+  "train_size": 3200,
+  "seed": 44,
+  "train_r2": 0.9064753752556425,
+  "train_mse": 47499.80274289105,
+  "train_rmse": 217.94449463771974,
+  "train_mae": 115.48033791495405,
+  "test_r2": 0.9252045112869949,
+  "test_mse": 39385.236746631184,
+  "test_rmse": 198.45714083053596,
+  "test_mae": 106.31406500330215,
+  "cv_mean_r2": 0.9071647841444195,
+  "cv_std_r2": 0.018462046017322906,
+  "cv_mean_rmse": 215.71544449683506,
+  "cv_std_rmse": 21.183502828124862,
+  "cv_mean_mae": 113.38943780277751,
+  "cv_std_mae": 5.952757393218074,
+  "best_params": {
+    "model__activation": "relu",
+    "model__alpha": 0.0001,
+    "model__learning_rate_init": 0.01,
+    "model__solver": "adam"
+  },
+  "wall_time_seconds": 3.565159320831299
+}

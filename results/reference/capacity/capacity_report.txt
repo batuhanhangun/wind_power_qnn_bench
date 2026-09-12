@@ -1,0 +1,28 @@
+================================================================
+QNN capacity ablation (reps sweep, reverse_linear) — Q9 report
+Run ID: 20260628_134952
+Regime: N=800, seeds 42..51, noise-free
+================================================================
+
+[1] Gap-vs-capacity curve (mean over 10 seeds)
+    reps  params  CNOTs  mean_test_r2   mean_gap  sigma_test_r2
+       1       8      3        0.2005     0.0052         0.0446
+       2      12      6        0.8955     0.0081         0.0158
+       3      16      9        0.9034     0.0062         0.0168
+       4      20     12        0.9023     0.0071         0.0172
+       5      24     15        0.9082     0.0074         0.0151
+
+[2] Q9 finding — capacity vs the generalization gap
+    Q9 verdict band: a mean generalization gap <= 0.05 R2 is treated as 'near zero'.
+    Mean gap at 8 params (reps=1):  +0.0052
+    Mean gap at 24 params (reps=5): +0.0074
+    Largest mean gap on the grid:  +0.0081 (reps=2)
+
+    FINDING: The mean generalization gap remains near zero as the parameter count grows from 8 to 24 (every rep value stays within the 0.05 band). The small gap is therefore an ARCHITECTURAL PROPERTY of the reverse_linear QNN, not an artifact of a model too small to overfit: tripling the parameter count does not induce overfitting. The deployed reps=3 model is representative of this stable regime, not a uniquely lucky point.
+
+[3] Consistency check — reps=3 reproduces the deployed N=800 R2
+    measured (reps=3): 0.9034 +/- 0.0168 (n=10 seeds)
+    expected (deployed): ~0.903
+    |measured - expected|: 0.0004
+
+================================================================

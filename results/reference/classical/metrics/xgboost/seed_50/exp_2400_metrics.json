@@ -1,0 +1,25 @@
+{
+  "model": "xgboost",
+  "train_size": 2400,
+  "seed": 50,
+  "train_r2": 0.9633914051951141,
+  "train_mse": 18970.133165327585,
+  "train_rmse": 137.73210651597392,
+  "train_mae": 59.35100029902135,
+  "test_r2": 0.927424438529034,
+  "test_mse": 36522.24582897051,
+  "test_rmse": 191.10794287253083,
+  "test_mae": 72.46134363044149,
+  "cv_mean_r2": 0.9509195952363749,
+  "cv_std_r2": 0.020256919401840736,
+  "cv_mean_rmse": 154.7431985576291,
+  "cv_std_rmse": 36.63902741570026,
+  "cv_mean_mae": 66.42355999575915,
+  "cv_std_mae": 5.0712094809154635,
+  "best_params": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 3,
+    "model__n_estimators": 100
+  },
+  "wall_time_seconds": 0.35887646675109863
+}
