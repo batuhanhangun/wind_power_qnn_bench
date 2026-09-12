@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite this repository when using the code."
 type: software
-title: "Reproduction code for Benchmarking Quantum Neural Networks for Wind Power Forecasting: Generalization Stability and Noise Robustness Under Data-Scarce Conditions"
+title: "Reproduction code for Benchmarking Quantum Neural Networks for Wind Power Prediction: Generalization Stability and Noise Robustness Under Data-Scarce Conditions"
 authors:
   - family-names: Hangun
     given-names: Batuhan
