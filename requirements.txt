@@ -1,0 +1,14 @@
+xgboost==3.2.0
+pennylane==0.44.0
+pennylane-lightning==0.44.0
+numpy==2.4.2
+scipy==1.17.1
+scikit-learn==1.8.0
+pandas==3.0.1
+matplotlib==3.10.3
+openpyxl==3.1.5
+jinja2==3.1.6
+pytest==9.0.2
+gast==0.6.0
+astunparse==1.6.3
+setuptools==80.9.0

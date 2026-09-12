@@ -1,0 +1,6 @@
+* text=auto eol=lf
+data/seed_*/** -text
+results/reference/** -text
+LICENSE -text
+*.xlsx binary
+*.pdf binary

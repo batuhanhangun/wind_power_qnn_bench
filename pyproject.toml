@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qnnbench"
+version = "0.1.0"
+description = "Reproduction code for the wind-power QNN benchmark"
+
+[tool.setuptools.packages.find]
+include = ["qnnbench*", "scripts*", "figures*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = ["slow: fresh experiment reproduction requiring optimization"]
