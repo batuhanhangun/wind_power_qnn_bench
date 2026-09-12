@@ -34,7 +34,7 @@ python -m pip install -r requirements.txt
 python -m pip install -e .
 ```
 
-Run all commands below from the repository root with this environment active. The data and reference results are included. Keep the pinned package versions for numerical reproduction, especially SciPy's Wilcoxon calculations and ANN-Reg training. Environment details are recorded in [PROVENANCE.md](results/reference/PROVENANCE.md).
+Run all commands below from the repository root with this environment active. The data and reference results are included. Keep the pinned package versions for numerical reproduction, especially SciPy's Wilcoxon calculations and ANN-Reg training. The original experiments ran on CPython 3.11 with these same pinned versions.
 
 ## Verify the published results
 
@@ -208,7 +208,9 @@ ANN-Reg sets `OMP_NUM_THREADS=1`, `MKL_NUM_THREADS=1`, and `OPENBLAS_NUM_THREADS
 
 The reverse-linear noisy circuit has exactly 42 depolarizing-channel insertions at three repetitions. Tests assert the count because channel placement affects the results. Noise-aware results use N=800 with ten seeds; the main noise table pools four sizes and ten seeds. A subset run therefore does not reproduce the full aggregates.
 
-The classical grid search selects by negative RMSE; ANN-Reg selects by R². The architecture report identifies `full` as the CV accuracy leader, while the study uses the numerically equivalent `reverse_linear` circuit with fewer CNOTs. Origin, contents and checksums of the supplied results are documented in [PROVENANCE.md](results/reference/PROVENANCE.md).
+The classical grid search selects by negative RMSE; ANN-Reg selects by R². The architecture report identifies `full` as the CV accuracy leader, while the study uses the numerically equivalent `reverse_linear` circuit with fewer CNOTs.
+
+The files under `results/reference/` are the original experiment outputs, copied unchanged. `FILE_MANIFEST.json` holds their SHA-256 digests and `tests/test_reference_integrity.py` checks every one, so an accidental edit to a reference value fails the test suite.
 
 ## Citation
 
