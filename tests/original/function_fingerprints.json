@@ -1,0 +1,302 @@
+[
+  {
+    "source": "qnn_wind_benchmark_revision/src/run_classical.py",
+    "destination": "qnnbench/classical.py",
+    "function": "get_model_and_param_grid",
+    "ast_sha256": "6881f1baae8f4bc0e3aa64719ebcb7e792cbdfe350b0db810a423cc5ee9d68e3"
+  },
+  {
+    "source": "qnn_wind_benchmark_revision/src/run_classical.py",
+    "destination": "qnnbench/classical.py",
+    "function": "run_experiment",
+    "ast_sha256": "a4410aa4de02f66037c49dbd8af87969b39c70b4486a04b7df7b27448e358d4d"
+  },
+  {
+    "source": "ann_regularized_baseline/src/run_ann_reg.py",
+    "destination": "qnnbench/ann_reg.py",
+    "function": "build_estimator",
+    "ast_sha256": "5d5c4a429509b8485a78f0c98af4022cf1577062ed7ae0bd296bc73668d1261e"
+  },
+  {
+    "source": "ann_regularized_baseline/src/run_ann_reg.py",
+    "destination": "qnnbench/ann_reg.py",
+    "function": "count_parameters",
+    "ast_sha256": "2dc03c693e80f750b09f5698fb6a2ccfc2c6c5c2bbc929cb08adc689cd31739a"
+  },
+  {
+    "source": "ann_regularized_baseline/src/run_ann_reg.py",
+    "destination": "qnnbench/ann_reg.py",
+    "function": "run_experiment",
+    "ast_sha256": "04a016d2374f1a4d410feb41b6e91c8923572dce066ea835cc79a6e3959268e1"
+  },
+  {
+    "source": "qnn_reverse_linear_rerun/src/run_main.py",
+    "destination": "qnnbench/qnn.py",
+    "function": "batch_predict",
+    "ast_sha256": "aaa8849199473061b8bc833e505623f6a0864ddcc1680a009a7a406ace4806a7"
+  },
+  {
+    "source": "qnn_reverse_linear_rerun/src/run_main.py",
+    "destination": "qnnbench/qnn.py",
+    "function": "cost_fn",
+    "ast_sha256": "70bdc4f5804240cefd87a0e8617f73ea95fa7088e425897740685de21b226d68"
+  },
+  {
+    "source": "qnn_reverse_linear_rerun/src/run_main.py",
+    "destination": "qnnbench/qnn.py",
+    "function": "make_callback",
+    "ast_sha256": "ba25c64e3cfc40b6f18ce052d8ffe4ba91772de06b19c00b559026c57fff551c"
+  },
+  {
+    "source": "qnn_reverse_linear_rerun/src/run_main.py",
+    "destination": "qnnbench/qnn.py",
+    "function": "train_model",
+    "ast_sha256": "09bbbe39e707fe76cd592030f495e5b8a8065c864a43e0b61b6f1b3857dfed77"
+  },
+  {
+    "source": "qnn_reverse_linear_rerun/src/run_main.py",
+    "destination": "qnnbench/qnn.py",
+    "function": "predict_original_scale",
+    "ast_sha256": "2d56eead6c379ae0ac219f9988facc8b3eb68feb3649e37b3ead2a19e933e580"
+  },
+  {
+    "source": "qnn_reverse_linear_rerun/src/run_main.py",
+    "destination": "qnnbench/qnn.py",
+    "function": "scale_data",
+    "ast_sha256": "b34161c9a3cdecd77fe28835142b8519eaf11e0c2e97da671a7e4a619009c968"
+  },
+  {
+    "source": "qnn_reverse_linear_rerun/src/run_main.py",
+    "destination": "qnnbench/qnn.py",
+    "function": "run_cross_validation",
+    "ast_sha256": "3e418f8468af5058253c6866ac95059d66d421634f4db9a579324871c6788162"
+  },
+  {
+    "source": "qnn_reverse_linear_rerun/src/run_main.py",
+    "destination": "qnnbench/qnn.py",
+    "function": "run_experiment",
+    "ast_sha256": "e6240d7e25cb26f73d334314cee01ef7c7a83e7b5a89d01199fa579f89cc9ab2"
+  },
+  {
+    "source": "qnn_reverse_linear_rerun/src/run_noise.py",
+    "destination": "qnnbench/noise.py",
+    "function": "evaluate_under_noise",
+    "ast_sha256": "5f29b4dd3775bc3818d33aab351dd02799d7a9063fa16f4e044981507eb66a33"
+  },
+  {
+    "source": "qnn_reverse_linear_rerun/src/run_noise.py",
+    "destination": "qnnbench/noise.py",
+    "function": "run_experiment",
+    "ast_sha256": "96f11d8438d2e624a4fc3fbffab27980380f95b26af7000fb765998bf3a0c366"
+  },
+  {
+    "source": "qnn_noise_aware_training/src/run_noise_aware.py",
+    "destination": "qnnbench/noise_aware.py",
+    "function": "batch_predict",
+    "ast_sha256": "e4357fc49be66b783c5a5d4fa09f2a9dfb6b1ba681472a7251ae217f45d6b8c3"
+  },
+  {
+    "source": "qnn_noise_aware_training/src/run_noise_aware.py",
+    "destination": "qnnbench/noise_aware.py",
+    "function": "cost_fn",
+    "ast_sha256": "149afcdc1aeff442e1d29615018d695174c158918b70261e3d66acce120f4499"
+  },
+  {
+    "source": "qnn_noise_aware_training/src/run_noise_aware.py",
+    "destination": "qnnbench/noise_aware.py",
+    "function": "train_model",
+    "ast_sha256": "b347b2c948551a187eb3d5a72d734cda039bb9b032e0923a4ac149dd37830392"
+  },
+  {
+    "source": "qnn_noise_aware_training/src/run_noise_aware.py",
+    "destination": "qnnbench/noise_aware.py",
+    "function": "predict_raw_original_scale",
+    "ast_sha256": "559583bc004c79f74202b233352c6f82b7f24dde6efdc73dfff92400ec69e465"
+  },
+  {
+    "source": "qnn_noise_aware_training/src/run_noise_aware.py",
+    "destination": "qnnbench/noise_aware.py",
+    "function": "predict_original_scale",
+    "ast_sha256": "b8065c2c40e7fb081fbe5b885fc9c8fed4db764b72a48be971709a54346107e1"
+  },
+  {
+    "source": "qnn_noise_aware_training/src/run_noise_aware.py",
+    "destination": "qnnbench/noise_aware.py",
+    "function": "fit_linear_calibration",
+    "ast_sha256": "3865d89c2e24d0823af8828ea1581b83d6b331b17d257d3dc6499e5fc7ad049f"
+  },
+  {
+    "source": "qnn_noise_aware_training/src/run_noise_aware.py",
+    "destination": "qnnbench/noise_aware.py",
+    "function": "apply_linear_calibration",
+    "ast_sha256": "161311fe5f33f4ce6a92728531495ee80da2610c2e39cde1d628d646b3e1e60a"
+  },
+  {
+    "source": "qnn_noise_aware_training/src/run_noise_aware.py",
+    "destination": "qnnbench/noise_aware.py",
+    "function": "scale_data",
+    "ast_sha256": "b88f9948e73b70be376cc746b0e0ae6570d8bc9d1869ff299831b36dc07498a3"
+  },
+  {
+    "source": "qnn_noise_aware_training/src/run_noise_aware.py",
+    "destination": "qnnbench/noise_aware.py",
+    "function": "_row",
+    "ast_sha256": "f1e311f7f9e825706818682e40833c0b2f8772d891f4c7b3ff7155187965200c"
+  },
+  {
+    "source": "qnn_noise_aware_training/src/run_noise_aware.py",
+    "destination": "qnnbench/noise_aware.py",
+    "function": "run_seed",
+    "ast_sha256": "2db7822a73e7acf72e8f8e8fbfcc88635eebbfd745913d419a9284c1b5cfed69"
+  },
+  {
+    "source": "qnn_noise_aware_training/src/circuit.py",
+    "destination": "qnnbench/circuits.py",
+    "function": "_apply_feature_map",
+    "ast_sha256": "ddc23b49c7016c8c8a5609df186a72e66c767fd8bc8fa5352083765aaecad6c6"
+  },
+  {
+    "source": "qnn_noise_aware_training/src/circuit.py",
+    "destination": "qnnbench/circuits.py",
+    "function": "_apply_ansatz",
+    "ast_sha256": "9930748e80b62723ba8b0111e48b3caa0335e5dfa607dda7900316e113775a28"
+  },
+  {
+    "source": "qnn_noise_aware_training/src/circuit.py",
+    "destination": "qnnbench/circuits.py",
+    "function": "_measurement",
+    "ast_sha256": "75092d34f246572c3fa73c06972bba623be7597e22304571d3fba95dab8e266d"
+  },
+  {
+    "source": "qnn_noise_aware_training/src/circuit.py",
+    "destination": "qnnbench/circuits.py",
+    "function": "circuit",
+    "ast_sha256": "61a57ef9649e25bf4e33cf72cd02f17071aae9ca8b11a07039cf38a66cd1f02f"
+  },
+  {
+    "source": "qnn_noise_aware_training/src/circuit.py",
+    "destination": "qnnbench/circuits.py",
+    "function": "make_noisy_circuit",
+    "ast_sha256": "4b63b3c937312f7811e156de9aa76ecff15f9b497bedd278a2144e5703bbd0a7"
+  },
+  {
+    "source": "qnn_noise_aware_training/src/circuit.py",
+    "destination": "qnnbench/circuits.py",
+    "function": "make_trainable_noisy_circuit",
+    "ast_sha256": "67e2187c89f09d52e14a680b362820e67d638e330cb03503d2ea186ee45fdb05"
+  },
+  {
+    "source": "qnn_noise_aware_training/src/circuit.py",
+    "destination": "qnnbench/circuits.py",
+    "function": "make_density_circuit",
+    "ast_sha256": "a34081210290acca4f00258df3746deb362faffd46449b70628d029e0f60ca03"
+  },
+  {
+    "source": "qnn_noise_aware_training/src/circuit.py",
+    "destination": "qnnbench/circuits.py",
+    "function": "count_depolarizing_channels",
+    "ast_sha256": "a8a20de8adf04f9e2c1dca7c9b55c59c3eb12f3b33d24c6dc12740524656b00a"
+  },
+  {
+    "source": "qnn_capacity_ablation/src/run_capacity.py",
+    "destination": "qnnbench/capacity.py",
+    "function": "make_cost",
+    "ast_sha256": "f30e404ed18d46d377615cd4bac6a55cc226dd9834ee6009b1d28c2bba11bdaa"
+  },
+  {
+    "source": "qnn_capacity_ablation/src/run_capacity.py",
+    "destination": "qnnbench/capacity.py",
+    "function": "train_model",
+    "ast_sha256": "9f81334c740ed3d265406608a3102303623456946c84a78e731783f36fb70932"
+  },
+  {
+    "source": "qnn_capacity_ablation/src/run_capacity.py",
+    "destination": "qnnbench/capacity.py",
+    "function": "predict_original_scale",
+    "ast_sha256": "58405d73a1ed90b32c094c60ec23ca9f289dbb5cc315921596008b910b14cb5a"
+  },
+  {
+    "source": "qnn_capacity_ablation/src/run_capacity.py",
+    "destination": "qnnbench/capacity.py",
+    "function": "run_experiment",
+    "ast_sha256": "fc7e2168e3fb2bc69adad0302a7c309c6ed19267ef5fdc6678995551896546af"
+  },
+  {
+    "source": "qnn_capacity_ablation/src/circuit.py",
+    "destination": "qnnbench/_capacity_circuit.py",
+    "function": "weight_shape",
+    "ast_sha256": "1e5a9d07b46b3780e20cbab8ecc73da5952ffd957a193bfd1b6526c6ad7f9caf"
+  },
+  {
+    "source": "qnn_capacity_ablation/src/circuit.py",
+    "destination": "qnnbench/_capacity_circuit.py",
+    "function": "num_params",
+    "ast_sha256": "02c51c2fb984c98af0bae04e3e64bc2d22c267f980b039f520bb6a5929587691"
+  },
+  {
+    "source": "qnn_capacity_ablation/src/circuit.py",
+    "destination": "qnnbench/_capacity_circuit.py",
+    "function": "num_cnots",
+    "ast_sha256": "ef8c3ab8103dd139f7d8054e6fbea99ff6aede1475be8ecc214941b095d6a384"
+  },
+  {
+    "source": "qnn_capacity_ablation/src/circuit.py",
+    "destination": "qnnbench/_capacity_circuit.py",
+    "function": "_apply_feature_map",
+    "ast_sha256": "5ed2d430c0491b00aba71ff11a9fac68b94b3220faa40876af5051401007b633"
+  },
+  {
+    "source": "qnn_capacity_ablation/src/circuit.py",
+    "destination": "qnnbench/_capacity_circuit.py",
+    "function": "_apply_ansatz",
+    "ast_sha256": "b81aef82949ac7fbe79c8bd3168b46a2064c8237d950a8ea7e50855d3f011d41"
+  },
+  {
+    "source": "qnn_capacity_ablation/src/circuit.py",
+    "destination": "qnnbench/_capacity_circuit.py",
+    "function": "_measurement",
+    "ast_sha256": "75092d34f246572c3fa73c06972bba623be7597e22304571d3fba95dab8e266d"
+  },
+  {
+    "source": "qnn_capacity_ablation/src/circuit.py",
+    "destination": "qnnbench/_capacity_circuit.py",
+    "function": "make_train_circuit",
+    "ast_sha256": "15cf65935b73a4fd542b69bb7a0ce5d59fbb35c34a07cfee532f3c0da219e615"
+  },
+  {
+    "source": "qnn_structure_selection/src/run_selection.py",
+    "destination": "qnnbench/selection.py",
+    "function": "_make_cost_fn",
+    "ast_sha256": "1a480588bf93ef112d8af81cd2b3ed36a5259b40ff5a63f9085091f181f45238"
+  },
+  {
+    "source": "qnn_structure_selection/src/run_selection.py",
+    "destination": "qnnbench/selection.py",
+    "function": "train_qnn",
+    "ast_sha256": "f1c982d59c0fdcf072fac040c24d1ae847015b7176dee713dc64b1af230bf4e1"
+  },
+  {
+    "source": "qnn_structure_selection/src/run_selection.py",
+    "destination": "qnnbench/selection.py",
+    "function": "predict_original_scale",
+    "ast_sha256": "58405d73a1ed90b32c094c60ec23ca9f289dbb5cc315921596008b910b14cb5a"
+  },
+  {
+    "source": "qnn_structure_selection/src/run_selection.py",
+    "destination": "qnnbench/selection.py",
+    "function": "_scale_fit",
+    "ast_sha256": "97ca7640e0f9ace4f203e26010c96dac44e867006129ee69a39d69911c3cad1b"
+  },
+  {
+    "source": "qnn_structure_selection/src/run_selection.py",
+    "destination": "qnnbench/selection.py",
+    "function": "run_config_seed",
+    "ast_sha256": "985a2373e5a8ee184d21d5b732b3f391f1f38cdbdf6586b2175dff2b072e9b52"
+  },
+  {
+    "source": "qnn_structure_selection/src/circuit.py",
+    "destination": "qnnbench/_selection_circuit.py",
+    "function": "make_circuit",
+    "ast_sha256": "926ca148ac4a8d207498a9fedbbfa1b03ba152288318285d9f29dec93747a356"
+  }
+]
