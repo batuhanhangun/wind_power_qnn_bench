@@ -412,22 +412,22 @@
   {
     "source": "ann_regularized_baseline/aggregated/run_local/ann_reg_classical_per_seed.csv",
     "destination": "results/reference/ann_reg/ann_reg_classical_per_seed.csv",
-    "sha256": "7608a50f2d4413f69a0e3872589f054c1d155d03c8c1e22f90800d9572cdd766"
+    "sha256": "dba392bb8c9afdaf97d8f92a6015f20dce2101ad7d25a02bbdc4b9f174ec03b3"
   },
   {
     "source": "ann_regularized_baseline/aggregated/run_local/ann_reg_per_seed.csv",
     "destination": "results/reference/ann_reg/ann_reg_per_seed.csv",
-    "sha256": "3d7e3132c1e6ff4288a576651b296fe32c1b35d55be9f2eac921e9c7e923bcab"
+    "sha256": "c1c39d0820dbf4fe11d4594606899e1caaaa3f393a224b548a72b9630e20ca8a"
   },
   {
     "source": "ann_regularized_baseline/aggregated/run_local/ann_reg_summary.csv",
     "destination": "results/reference/ann_reg/ann_reg_summary.csv",
-    "sha256": "b9706f0ffe94f260d712dcb92401c14fa6556a788ea8cb0aefe3e85d739ec456"
+    "sha256": "fbb55d6256ac7f425aa22dbf86f1130a440997956a790f8bc18ce5652446c495"
   },
   {
     "source": "ann_regularized_baseline/aggregated/run_local/reproduction_report.txt",
     "destination": "results/reference/ann_reg/reproduction_report.txt",
-    "sha256": "49cf75e9577700a990e57e295177bd7204d4d6b5cbe204da3633e8d475785cff"
+    "sha256": "37f0c0b43eee8609f80fdc34bfd98178f7112fcdaf877a995e9bd2a9448d6e3e"
   },
   {
     "source": "figures_revision/data/qnn_per_seed.csv",
@@ -532,7 +532,7 @@
   {
     "source": "figures_revision/data/ann_reg_results/seed_48/exp_3200_predictions.csv",
     "destination": "results/reference/predictions/ann_reg/seed_48/exp_3200_predictions.csv",
-    "sha256": "282f7ef34561f7fa2ca74e5f3b714acd5fd6396749330b124303a12adf236723"
+    "sha256": "1d706e38bf09a4bcd1828088661078318bab79268b4391e93af1923f2d671b58"
   },
   {
     "source": "figures_revision/data/ann_reg_results/seed_49/exp_3200_predictions.csv",
