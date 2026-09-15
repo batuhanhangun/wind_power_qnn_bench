@@ -83,6 +83,12 @@ ANN_REG_CONFIG = {
         "model__learning_rate_init": [1e-3, 1e-2],
     },
 }
+ANN_REG_SELECTION_CHOICES = ["r2", "neg_rmse"]
+ANN_REG_SELECTION_DEFAULT = "neg_rmse"
+# Model-selection criterion for the ANN-Reg grid search. "neg_rmse" is the
+# default and matches the classical harness (multi-metric scoring dict with
+# refit="neg_rmse"); "r2" reproduces the earlier published ANN-Reg run.
+ANN_REG_SELECTION = ANN_REG_SELECTION_DEFAULT
 CONSTRAINED_ANN_SIGMA = 0.294
 SEED_COLLAPSE_THRESHOLD = 0.25
 REPRODUCTION_ATOL = 1e-6

@@ -115,17 +115,36 @@ def run_experiment(train_size: int, seed: int) -> dict:
         * len(config.ANN_REG_CONFIG["param_grid"]["model__alpha"])
         * len(config.ANN_REG_CONFIG["param_grid"]["model__learning_rate_init"])
     )
+    selection = getattr(config, "ANN_REG_SELECTION",
+                        config.ANN_REG_SELECTION_DEFAULT)
+    if selection == "neg_rmse":
+        # Default: identical to the classical harness in qnnbench/classical.py
+        # so every classical model is tuned by the same criterion.
+        scoring = {
+            "neg_rmse": "neg_root_mean_squared_error",
+            "neg_mae": "neg_mean_absolute_error",
+            "r2": "r2",
+        }
+        refit = "neg_rmse"
+    elif selection == "r2":
+        # Retained for transparency: the earlier published ANN-Reg behaviour.
+        scoring = "r2"
+        refit = True
+    else:
+        raise ValueError(f"Unknown selection criterion: {selection}")
+
     print_flush(
         f"Starting GridSearchCV: {n_combos} combinations x "
-        f"{config.CV_FOLDS}-fold CV (scoring=R2)..."
+        f"{config.CV_FOLDS}-fold CV "
+        f"(selection={selection}, refit={'neg_rmse' if selection == 'neg_rmse' else 'R2'})..."
     )
 
     grid_search = GridSearchCV(
         estimator=pipeline,
         param_grid=config.ANN_REG_CONFIG["param_grid"],
         cv=kfold,
-        scoring="r2",
-        refit=True,
+        scoring=scoring,
+        refit=refit,
         n_jobs=1,  # single process for platform-deterministic reproduction
         verbose=1,
     )
@@ -135,8 +154,10 @@ def run_experiment(train_size: int, seed: int) -> dict:
     best_model = grid_search.best_estimator_  # already refit on full train set
     best_params = grid_search.best_params_
     best_index = grid_search.best_index_
-    cv_mean_r2 = float(grid_search.cv_results_["mean_test_score"][best_index])
-    cv_std_r2 = float(grid_search.cv_results_["std_test_score"][best_index])
+    r2_key = "mean_test_score" if selection == "r2" else "mean_test_r2"
+    r2_std_key = "std_test_score" if selection == "r2" else "std_test_r2"
+    cv_mean_r2 = float(grid_search.cv_results_[r2_key][best_index])
+    cv_std_r2 = float(grid_search.cv_results_[r2_std_key][best_index])
 
     print_flush(f"\nBest parameters: {best_params}")
     print_flush(f"CV R²: {cv_mean_r2:.4f} ± {cv_std_r2:.4f}")
@@ -176,6 +197,7 @@ def run_experiment(train_size: int, seed: int) -> dict:
         "test_mae": test_metrics["mae"],
         "n_params": n_params,
         "best_params": best_params_str,
+        "selection": selection,
         "cv_mean_r2": cv_mean_r2,
         "cv_std_r2": cv_std_r2,
         "wall_time_seconds": wall_time,

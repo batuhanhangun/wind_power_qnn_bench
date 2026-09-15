@@ -24,9 +24,20 @@ def parser_for(name):
         parser.add_argument('--models',nargs='+',choices=config.CLASSICAL_MODELS,default=config.CLASSICAL_MODELS)
     if name=='noise':
         parser.add_argument('--qnn-results',type=Path,default=config.ROOT/'results/runs/qnn')
+    if name=='ann_reg':
+        parser.add_argument('--selection',choices=config.ANN_REG_SELECTION_CHOICES,
+                            default=config.ANN_REG_SELECTION_DEFAULT,
+                            help='Model-selection criterion for the grid search. '
+                                 '"neg_rmse" (default) matches the classical harness '
+                                 'in qnnbench/classical.py; "r2" reproduces the '
+                                 'earlier published ANN-Reg behaviour.')
+        parser.add_argument('--skip-reference-check',action='store_true',
+                            help='Skip the reproduction gate against the published '
+                                 'reference. Only honoured when --selection is not '
+                                 f'"{config.ANN_REG_SELECTION_DEFAULT}".')
     return parser
 
-def aggregate(name, out, seeds, sizes):
+def aggregate(name, out, seeds, sizes, skip_reference_check=False):
     import pandas as pd
     module=importlib.import_module('qnnbench._aggregation.'+('qnn' if name=='noise' else name))
     if name=='classical':
@@ -81,6 +92,23 @@ def aggregate(name, out, seeds, sizes):
         df=module.collect_results()
         expected=[(s,n) for s in seeds for n in sizes]
         validate_keys(df,['seed','train_size'],expected)
+        if skip_reference_check:
+            warning=[
+                '='*70,
+                'REPRODUCTION GATE SKIPPED',
+                '='*70,
+                f'Selection criterion: {config.ANN_REG_SELECTION} '
+                f'(published reference used "{config.ANN_REG_SELECTION_DEFAULT}").',
+                'These results were NOT checked against the published reference in',
+                f'{config.REFERENCE_CSV}. They are not a reproduction of the',
+                'published ANN-Reg run and must not be treated as one.',
+            ]
+            for line in warning: print(line,flush=True)
+            (out/'reproduction_report.txt').write_text('\n'.join(warning)+'\n',encoding='utf-8')
+            df.to_csv(out/'ann_reg_per_seed.csv',index=False)
+            df[['model','seed','train_size','test_r2','train_r2','generalization_gap']].to_csv(out/'ann_reg_classical_per_seed.csv',index=False)
+            module.build_summary(df).to_csv(out/'ann_reg_summary.csv',index=False)
+            return
         ref=pd.read_csv(config.REFERENCE_CSV)
         ref=ref[ref.seed.isin(seeds)&ref.train_size.isin(sizes)]
         # The original gate reads a CSV; restrict its I/O input to the explicitly requested cells.
@@ -114,6 +142,15 @@ def run(name, argv=None):
     config.AGGREGATED_DIR=out
     config.SEEDS=list(args.seeds)
     config.TRAIN_SIZES=list(sizes)
+    skip_reference_check=False
+    if name=='ann_reg':
+        config.ANN_REG_SELECTION=args.selection
+        if args.skip_reference_check:
+            if args.selection==config.ANN_REG_SELECTION_DEFAULT:
+                print('--skip-reference-check ignored: the reproduction gate always runs '
+                      f'for --selection {config.ANN_REG_SELECTION_DEFAULT}.',flush=True)
+            else:
+                skip_reference_check=True
     if name=='noise':
         # Preserve the verified handoff logic; stage its two input files into --out.
         import shutil
@@ -126,6 +163,8 @@ def run(name, argv=None):
     module=importlib.import_module('qnnbench.'+name)
     started=time.perf_counter()
     record={'experiment':name,'seeds':args.seeds,'sizes':sizes,'python':platform.python_version(),
+            **({'selection':args.selection,'reference_check_skipped':skip_reference_check}
+               if name=='ann_reg' else {}),
             'platform':platform.platform(),'processor':platform.processor(),'status':'running'}
     try:
         for seed in args.seeds:
@@ -139,7 +178,7 @@ def run(name, argv=None):
                     if name=='classical':
                         for model in args.models: module.run_experiment(model,size,seed)
                     else: module.run_experiment(size,seed)
-        aggregate(name,out,args.seeds,sizes)
+        aggregate(name,out,args.seeds,sizes,skip_reference_check)
         record['status']='passed'
     except BaseException as exc:
         record.update(status='failed',error=str(exc))
