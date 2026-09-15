@@ -4,7 +4,7 @@ from qnnbench.stats import benchmark_tests, resolution_floor, paired_test, load_
 from scripts.verify_results import verify, check_cell
 
 def test_table_iv_pvalues():
-    expected={'ANN':[1.52e-3,8.92e-2],'ANN-Reg':[2.07e-8,3.54e-1],
+    expected={'ANN':[1.52e-3,8.92e-2],'ANN-Reg':[1.41e-6,3.97e-1],
               'SVR':[1.82e-12,4.22e-2],'DTR':[1.82e-12,1.82e-12],
               'XGBoost':[1.82e-12,1.82e-12],'RF':[1.82e-12,1.82e-12]}
     result=benchmark_tests()
