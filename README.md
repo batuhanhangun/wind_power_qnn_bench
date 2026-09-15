@@ -218,7 +218,7 @@ The files under `results/reference/` are the original experiment outputs, copied
 
 Citation metadata for this software is provided in [CITATION.cff](CITATION.cff).
 
-The code is archived on Zenodo. The concept DOI [10.5281/zenodo.22722276](https://doi.org/10.5281/zenodo.22722276) always resolves to the latest archived version. The results reported in the manuscript correspond to release v1.0.0, archived at [10.5281/zenodo.22722277](https://doi.org/10.5281/zenodo.22722277).
+The code is archived on Zenodo. The concept DOI [10.5281/zenodo.22722276](https://doi.org/10.5281/zenodo.22722276) always resolves to the latest archived version. The results reported in the manuscript correspond to release v1.0.1, archived at [10.5281/zenodo.22774214](https://doi.org/10.5281/zenodo.22774214).
 
 ## License
 
