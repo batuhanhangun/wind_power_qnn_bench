@@ -390,21 +390,6 @@
     "sha256": "e1167e5d9ed6fb1a227a156db60f43bcb73e3cb1456ff66593e4b8e72c85d371"
   },
   {
-    "source": "qnn_wind_benchmark_revision/aggregated/run_20260326_083044/latex_table.tex",
-    "destination": "results/reference/classical/latex_table.tex",
-    "sha256": "01faf487a835fbd1f76195c7c7635443574e2bc62bf0dffc377a45d5050ebe9f"
-  },
-  {
-    "source": "qnn_wind_benchmark_revision/aggregated/run_20260326_083044/statistical_tests.json",
-    "destination": "results/reference/classical/statistical_tests.json",
-    "sha256": "35c7b39aff36a47a6bdff22d37f54fa67176c59264c84a4dfb9943aa8a296ec6"
-  },
-  {
-    "source": "qnn_wind_benchmark_revision/aggregated/run_20260326_083044/statistical_tests.txt",
-    "destination": "results/reference/classical/statistical_tests.txt",
-    "sha256": "c39dc533b39cb087e0500b94ddada40de8f0df9fb65e82311ab71c4e181ff2d8"
-  },
-  {
     "source": "qnn_wind_benchmark_revision/aggregated/run_20260326_083044/summary_table.csv",
     "destination": "results/reference/classical/summary_table.csv",
     "sha256": "9b326fdf2386ac9a5d4d9c3959952792878f4e0f43bdd18a0da4ad3f88236f53"
